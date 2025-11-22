@@ -1,0 +1,221 @@
+[
+  {
+    "module": "Ethiopian Customs Commission",
+    "category": "Customs",
+    "topic": "e-Single Window System",
+    "sector": "Import/Export",
+    "steps": [
+      {
+        "en": "Register on e-SW system at singlewindow.gov.et",
+        "am": "Register on e-SW system at singlewindow.gov.et"
+      },
+      {
+        "en": "Create business profile",
+        "am": "Create business profile"
+      },
+      {
+        "en": "Link with customs account",
+        "am": "Link with customs account"
+      },
+      {
+        "en": "Submit import/export declarations",
+        "am": "Submit import/export declarations"
+      },
+      {
+        "en": "Upload required documents",
+        "am": "ያስፈላጊ ሰነዶችን ይስቀሉ"
+      },
+      {
+        "en": "Track declaration status",
+        "am": "Track declaration status"
+      }
+    ],
+    "requirements": [
+      "Valid business registration",
+      "Tax identification number",
+      "Customs registration",
+      "Required trade licenses"
+    ],
+    "validation": [
+      "Document authenticity verification",
+      "Regulatory compliance check",
+      "Risk assessment"
+    ],
+    "lastUpdated": "2025-11-20T09:00:00.060Z",
+    "source": "https://singlewindow.gov.et",
+    "version": "1.0",
+    "language": "en",
+    "id": "customs-e-single-window-system-1763664673929",
+    "slug": "e-single-window-system",
+    "title": "Ethiopian Customs Commission",
+    "source_url": "https://singlewindow.gov.et",
+    "updated_at": "2025-11-20T09:00:00.060Z",
+    "source_body": "# e-Single Window System\n\n## Category: Customs\n## Sector: Import/Export\n\n## Steps:\n1. Register on e-SW system at singlewindow.gov.et\n2. Create business profile\n3. Link with customs account\n4. Submit import/export declarations\n5. Upload required documents\n   (Amharic: ያስፈላጊ ሰነዶችን ይስቀሉ)\n6. Track declaration status\n\n## Requirements:\n- Valid business registration\n- Tax identification number\n- Customs registration\n- Required trade licenses\n\n## Validation:\n- Document authenticity verification\n- Regulatory compliance check\n- Risk assessment\n",
+    "translated_text": "# e-Single Window System\n\n## Category: Customs\n## Sector: Import/Export\n\n## Steps:\n1. Register on e-SW system at singlewindow.gov.et\n2. Create business profile\n3. Link with customs account\n4. Submit import/export declarations\n5. Upload required documents\n   (Amharic: ያስፈላጊ ሰነዶችን ይስቀሉ)\n6. Track declaration status\n\n## Requirements:\n- Valid business registration\n- Tax identification number\n- Customs registration\n- Required trade licenses\n\n## Validation:\n- Document authenticity verification\n- Regulatory compliance check\n- Risk assessment\n",
+    "original_text": "Amharic translation of: # e-Single Window System\n\n## Category: Customs\n## Sector: Import/Export\n\n## Steps:\n1. Register on e-...",
+    "workflows": [
+      {
+        "step": 1,
+        "description": {
+          "en": "Register on e-SW system at singlewindow.gov.et",
+          "am": "Register on e-SW system at singlewindow.gov.et"
+        }
+      },
+      {
+        "step": 2,
+        "description": {
+          "en": "Create business profile",
+          "am": "Create business profile"
+        }
+      },
+      {
+        "step": 3,
+        "description": {
+          "en": "Link with customs account",
+          "am": "Link with customs account"
+        }
+      },
+      {
+        "step": 4,
+        "description": {
+          "en": "Submit import/export declarations",
+          "am": "Submit import/export declarations"
+        }
+      },
+      {
+        "step": 5,
+        "description": {
+          "en": "Upload required documents",
+          "am": "ያስፈላጊ ሰነዶችን ይስቀሉ"
+        }
+      },
+      {
+        "step": 6,
+        "description": {
+          "en": "Track declaration status",
+          "am": "Track declaration status"
+        }
+      }
+    ],
+    "tags": [],
+    "sector_tags": [],
+    "required_documents": [
+      "Valid business registration",
+      "Tax identification number",
+      "Customs registration",
+      "Required trade licenses"
+    ],
+    "common_errors": [],
+    "faqs": [],
+    "examples": [],
+    "screenshots": []
+  },
+  {
+    "module": "Ethiopian Customs Commission",
+    "category": "Trade",
+    "topic": "eTrade Portal",
+    "sector": "Import/Export",
+    "steps": [
+      {
+        "en": "Visit ectradeportal.customs.gov.et",
+        "am": "Visit ectradeportal.customs.gov.et"
+      },
+      {
+        "en": "Register for an account",
+        "am": "Register for an account"
+      },
+      {
+        "en": "Complete business verification",
+        "am": "Complete business verification"
+      },
+      {
+        "en": "Access trade statistics",
+        "am": "Access trade statistics"
+      },
+      {
+        "en": "Generate trade reports",
+        "am": "Generate trade reports"
+      },
+      {
+        "en": "Monitor trade activities",
+        "am": "Monitor trade activities"
+      }
+    ],
+    "requirements": [
+      "Valid business registration",
+      "Trade license",
+      "Contact information"
+    ],
+    "validation": [
+      "Business registration verification",
+      "License authenticity check"
+    ],
+    "lastUpdated": "2025-11-20T09:00:00.063Z",
+    "source": "https://ectradeportal.customs.gov.et",
+    "version": "1.0",
+    "language": "en",
+    "id": "trade-etrade-portal-1763664673930",
+    "slug": "etrade-portal",
+    "title": "Ethiopian Customs Commission",
+    "source_url": "https://ectradeportal.customs.gov.et",
+    "updated_at": "2025-11-20T09:00:00.063Z",
+    "source_body": "# eTrade Portal\n\n## Category: Trade\n## Sector: Import/Export\n\n## Steps:\n1. Visit ectradeportal.customs.gov.et\n2. Register for an account\n3. Complete business verification\n4. Access trade statistics\n5. Generate trade reports\n6. Monitor trade activities\n\n## Requirements:\n- Valid business registration\n- Trade license\n- Contact information\n\n## Validation:\n- Business registration verification\n- License authenticity check\n",
+    "translated_text": "# eTrade Portal\n\n## Category: Trade\n## Sector: Import/Export\n\n## Steps:\n1. Visit ectradeportal.customs.gov.et\n2. Register for an account\n3. Complete business verification\n4. Access trade statistics\n5. Generate trade reports\n6. Monitor trade activities\n\n## Requirements:\n- Valid business registration\n- Trade license\n- Contact information\n\n## Validation:\n- Business registration verification\n- License authenticity check\n",
+    "original_text": "Amharic translation of: # eTrade Portal\n\n## Category: Trade\n## Sector: Import/Export\n\n## Steps:\n1. Visit ectradeportal.custo...",
+    "workflows": [
+      {
+        "step": 1,
+        "description": {
+          "en": "Visit ectradeportal.customs.gov.et",
+          "am": "Visit ectradeportal.customs.gov.et"
+        }
+      },
+      {
+        "step": 2,
+        "description": {
+          "en": "Register for an account",
+          "am": "Register for an account"
+        }
+      },
+      {
+        "step": 3,
+        "description": {
+          "en": "Complete business verification",
+          "am": "Complete business verification"
+        }
+      },
+      {
+        "step": 4,
+        "description": {
+          "en": "Access trade statistics",
+          "am": "Access trade statistics"
+        }
+      },
+      {
+        "step": 5,
+        "description": {
+          "en": "Generate trade reports",
+          "am": "Generate trade reports"
+        }
+      },
+      {
+        "step": 6,
+        "description": {
+          "en": "Monitor trade activities",
+          "am": "Monitor trade activities"
+        }
+      }
+    ],
+    "tags": [],
+    "sector_tags": [],
+    "required_documents": [
+      "Valid business registration",
+      "Trade license",
+      "Contact information"
+    ],
+    "common_errors": [],
+    "faqs": [],
+    "examples": [],
+    "screenshots": []
+  }
+]

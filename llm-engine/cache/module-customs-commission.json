@@ -1,0 +1,94 @@
+[
+  {
+    "module": "Ethiopian Customs Commission",
+    "category": "Customs",
+    "topic": "e-Single Window System",
+    "sector": "Import/Export",
+    "steps": [
+      {
+        "en": "Register on e-SW system at singlewindow.gov.et",
+        "am": "Register on e-SW system at singlewindow.gov.et"
+      },
+      {
+        "en": "Create business profile",
+        "am": "Create business profile"
+      },
+      {
+        "en": "Link with customs account",
+        "am": "Link with customs account"
+      },
+      {
+        "en": "Submit import/export declarations",
+        "am": "Submit import/export declarations"
+      },
+      {
+        "en": "Upload required documents",
+        "am": "ያስፈላጊ ሰነዶችን ይስቀሉ"
+      },
+      {
+        "en": "Track declaration status",
+        "am": "Track declaration status"
+      }
+    ],
+    "requirements": [
+      "Valid business registration",
+      "Tax identification number",
+      "Customs registration",
+      "Required trade licenses"
+    ],
+    "validation": [
+      "Document authenticity verification",
+      "Regulatory compliance check",
+      "Risk assessment"
+    ],
+    "lastUpdated": "2025-11-20T09:00:00.060Z",
+    "source": "https://singlewindow.gov.et",
+    "version": "1.0",
+    "language": "en"
+  },
+  {
+    "module": "Ethiopian Customs Commission",
+    "category": "Trade",
+    "topic": "eTrade Portal",
+    "sector": "Import/Export",
+    "steps": [
+      {
+        "en": "Visit ectradeportal.customs.gov.et",
+        "am": "Visit ectradeportal.customs.gov.et"
+      },
+      {
+        "en": "Register for an account",
+        "am": "Register for an account"
+      },
+      {
+        "en": "Complete business verification",
+        "am": "Complete business verification"
+      },
+      {
+        "en": "Access trade statistics",
+        "am": "Access trade statistics"
+      },
+      {
+        "en": "Generate trade reports",
+        "am": "Generate trade reports"
+      },
+      {
+        "en": "Monitor trade activities",
+        "am": "Monitor trade activities"
+      }
+    ],
+    "requirements": [
+      "Valid business registration",
+      "Trade license",
+      "Contact information"
+    ],
+    "validation": [
+      "Business registration verification",
+      "License authenticity check"
+    ],
+    "lastUpdated": "2025-11-20T09:00:00.063Z",
+    "source": "https://ectradeportal.customs.gov.et",
+    "version": "1.0",
+    "language": "en"
+  }
+]

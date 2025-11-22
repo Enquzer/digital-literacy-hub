@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "../"
+  },
+  "include": [
+    "server.ts",
+    "database.ts",
+    "../Scheduler.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

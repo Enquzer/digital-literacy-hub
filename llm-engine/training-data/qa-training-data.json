@@ -1,0 +1,669 @@
+[
+  {
+    "question": "What is step 1 for Import Declaration Workflow?",
+    "answer": {
+      "en": "Obtain import license/permit",
+      "am": "የማስመጣች ፈቃድ/ፍቃድ ያግኙ"
+    },
+    "category": "Customs",
+    "topic": "Import Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What is step 2 for Import Declaration Workflow?",
+    "answer": {
+      "en": "Register on e-SW system",
+      "am": "በኢ-ኤስዬ ስርዓት ላይ ይመዝግቡ"
+    },
+    "category": "Customs",
+    "topic": "Import Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What is step 3 for Import Declaration Workflow?",
+    "answer": {
+      "en": "Prepare commercial invoice",
+      "am": "የንግድ ኢንቮይስ ያዘጋጁ"
+    },
+    "category": "Customs",
+    "topic": "Import Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What is step 4 for Import Declaration Workflow?",
+    "answer": {
+      "en": "Classify goods using HS codes",
+      "am": "የኤችኤስ ኮዶችን በመጠቀም ምርቶችን ይመደቡ"
+    },
+    "category": "Customs",
+    "topic": "Import Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What is step 5 for Import Declaration Workflow?",
+    "answer": {
+      "en": "Calculate applicable duties and taxes",
+      "am": "የሚተገበሩ ጉምራሾች እና ታክሶችን ያስሉ"
+    },
+    "category": "Customs",
+    "topic": "Import Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What is step 6 for Import Declaration Workflow?",
+    "answer": {
+      "en": "Submit import declaration",
+      "am": "የማስመጣች መግለጫ ያስገቡ"
+    },
+    "category": "Customs",
+    "topic": "Import Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What is step 7 for Import Declaration Workflow?",
+    "answer": {
+      "en": "Upload required documents",
+      "am": "ያስፈላጊ ሰነዶችን ይስቀሉ"
+    },
+    "category": "Customs",
+    "topic": "Import Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What is step 8 for Import Declaration Workflow?",
+    "answer": {
+      "en": "Pay duties and taxes",
+      "am": "ጉምራሾች እና ታክሶች ይክፈሉ"
+    },
+    "category": "Customs",
+    "topic": "Import Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What is step 9 for Import Declaration Workflow?",
+    "answer": {
+      "en": "Clear goods through customs",
+      "am": "ምርቶችን በየክስተቱ ያጽዱ"
+    },
+    "category": "Customs",
+    "topic": "Import Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What are the requirements for Import Declaration Workflow?",
+    "answer": "Valid import license",
+    "category": "Customs",
+    "topic": "Import Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What are the requirements for Import Declaration Workflow?",
+    "answer": "Commercial invoice",
+    "category": "Customs",
+    "topic": "Import Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What are the requirements for Import Declaration Workflow?",
+    "answer": "Packing list",
+    "category": "Customs",
+    "topic": "Import Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What are the requirements for Import Declaration Workflow?",
+    "answer": "Bill of lading or airway bill",
+    "category": "Customs",
+    "topic": "Import Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What are the requirements for Import Declaration Workflow?",
+    "answer": "Certificate of origin (if applicable)",
+    "category": "Customs",
+    "topic": "Import Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What are the requirements for Import Declaration Workflow?",
+    "answer": "Import permit for regulated goods",
+    "category": "Customs",
+    "topic": "Import Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What are the requirements for Import Declaration Workflow?",
+    "answer": "Insurance certificate (if applicable)",
+    "category": "Customs",
+    "topic": "Import Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "How do you validate Import Declaration Workflow?",
+    "answer": "Verify HS code classification",
+    "category": "Customs",
+    "topic": "Import Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "How do you validate Import Declaration Workflow?",
+    "answer": "Check duty calculation accuracy",
+    "category": "Customs",
+    "topic": "Import Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "How do you validate Import Declaration Workflow?",
+    "answer": "Validate document completeness",
+    "category": "Customs",
+    "topic": "Import Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "How do you validate Import Declaration Workflow?",
+    "answer": "Confirm payment processing",
+    "category": "Customs",
+    "topic": "Import Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What is step 1 for Export Declaration Workflow?",
+    "answer": {
+      "en": "Obtain export license/permit",
+      "am": "የመላኪያ ፈቃድ/ፍቃድ ያግኙ"
+    },
+    "category": "Customs",
+    "topic": "Export Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What is step 2 for Export Declaration Workflow?",
+    "answer": {
+      "en": "Register on e-SW system",
+      "am": "በኢ-ኤስዬ ስርዓት ላይ ይመዝግቡ"
+    },
+    "category": "Customs",
+    "topic": "Export Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What is step 3 for Export Declaration Workflow?",
+    "answer": {
+      "en": "Prepare commercial invoice",
+      "am": "የንግድ ኢንቮይስ ያዘጋጁ"
+    },
+    "category": "Customs",
+    "topic": "Export Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What is step 4 for Export Declaration Workflow?",
+    "answer": {
+      "en": "Classify goods using HS codes",
+      "am": "የኤችኤስ ኮዶችን በመጠቀም ምርቶችን ይመደቡ"
+    },
+    "category": "Customs",
+    "topic": "Export Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What is step 5 for Export Declaration Workflow?",
+    "answer": {
+      "en": "Submit export declaration",
+      "am": "የመላኪያ መግለጫ ያስገቡ"
+    },
+    "category": "Customs",
+    "topic": "Export Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What is step 6 for Export Declaration Workflow?",
+    "answer": {
+      "en": "Upload required documents",
+      "am": "ያስፈላጊ ሰነዶችን ይስቀሉ"
+    },
+    "category": "Customs",
+    "topic": "Export Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What is step 7 for Export Declaration Workflow?",
+    "answer": {
+      "en": "Obtain shipping instructions",
+      "am": "የመላኪያ መመሪያዎችን ያግኙ"
+    },
+    "category": "Customs",
+    "topic": "Export Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What is step 8 for Export Declaration Workflow?",
+    "answer": {
+      "en": "Clear goods through customs",
+      "am": "ምርቶችን በየክስተቱ ያጽዱ"
+    },
+    "category": "Customs",
+    "topic": "Export Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What are the requirements for Export Declaration Workflow?",
+    "answer": "Valid export license",
+    "category": "Customs",
+    "topic": "Export Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What are the requirements for Export Declaration Workflow?",
+    "answer": "Commercial invoice",
+    "category": "Customs",
+    "topic": "Export Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What are the requirements for Export Declaration Workflow?",
+    "answer": "Packing list",
+    "category": "Customs",
+    "topic": "Export Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What are the requirements for Export Declaration Workflow?",
+    "answer": "Certificate of origin",
+    "category": "Customs",
+    "topic": "Export Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What are the requirements for Export Declaration Workflow?",
+    "answer": "Export permit for regulated goods",
+    "category": "Customs",
+    "topic": "Export Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What are the requirements for Export Declaration Workflow?",
+    "answer": "Phytosanitary certificate (for agricultural products)",
+    "category": "Customs",
+    "topic": "Export Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "How do you validate Export Declaration Workflow?",
+    "answer": "Verify HS code classification",
+    "category": "Customs",
+    "topic": "Export Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "How do you validate Export Declaration Workflow?",
+    "answer": "Check document completeness",
+    "category": "Customs",
+    "topic": "Export Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "How do you validate Export Declaration Workflow?",
+    "answer": "Validate export permit",
+    "category": "Customs",
+    "topic": "Export Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "How do you validate Export Declaration Workflow?",
+    "answer": "Confirm customs clearance",
+    "category": "Customs",
+    "topic": "Export Declaration Workflow",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "question": "What is step 1 for VAT Filing?",
+    "answer": {
+      "en": "Register for e-Tax account at etrax.mor.gov.et",
+      "am": "etrax.mor.gov.et ላይ ለኢ-ትክስ መለያ ይመዝግቡ"
+    },
+    "category": "Tax",
+    "topic": "VAT Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What is step 2 for VAT Filing?",
+    "answer": {
+      "en": "Gather required documents: Business license, TIN, financial statements",
+      "am": "ያስፈላጊ ሰነዶችን ያሰኩ: የቢዝነስ ፈቃድ, የትክስ መለያ ቁጥር, የሂኑድ መግለጫዎች"
+    },
+    "category": "Tax",
+    "topic": "VAT Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What is step 3 for VAT Filing?",
+    "answer": {
+      "en": "Login to e-Tax portal",
+      "am": "ወደ የኢ-ትክስ ፖርታል ይግቡ"
+    },
+    "category": "Tax",
+    "topic": "VAT Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What is step 4 for VAT Filing?",
+    "answer": {
+      "en": "Navigate to VAT filing section",
+      "am": "ወደ የቫት መግለጫ ክፍል ይሂዱ"
+    },
+    "category": "Tax",
+    "topic": "VAT Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What is step 5 for VAT Filing?",
+    "answer": {
+      "en": "Enter sales and purchase data",
+      "am": "የሽያጭ እና የግዢ ውሂብ ያስገቡ"
+    },
+    "category": "Tax",
+    "topic": "VAT Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What is step 6 for VAT Filing?",
+    "answer": {
+      "en": "Calculate VAT payable",
+      "am": "የሚከፈል ቫት ያስሉ"
+    },
+    "category": "Tax",
+    "topic": "VAT Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What is step 7 for VAT Filing?",
+    "answer": {
+      "en": "Submit VAT return",
+      "am": "የቫት መግለጫ ያስገቡ"
+    },
+    "category": "Tax",
+    "topic": "VAT Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What is step 8 for VAT Filing?",
+    "answer": {
+      "en": "Make payment through digital channels",
+      "am": "በዲጂታል ጣቢያዎች ክፍያ ያድርጉ"
+    },
+    "category": "Tax",
+    "topic": "VAT Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What are the requirements for VAT Filing?",
+    "answer": "Valid TIN (Tax Identification Number)",
+    "category": "Tax",
+    "topic": "VAT Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What are the requirements for VAT Filing?",
+    "answer": "Business registration certificate",
+    "category": "Tax",
+    "topic": "VAT Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What are the requirements for VAT Filing?",
+    "answer": "Bank account for digital payments",
+    "category": "Tax",
+    "topic": "VAT Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What are the requirements for VAT Filing?",
+    "answer": "Accounting records for the period",
+    "category": "Tax",
+    "topic": "VAT Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "How do you validate VAT Filing?",
+    "answer": "Verify TIN against business registration",
+    "category": "Tax",
+    "topic": "VAT Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "How do you validate VAT Filing?",
+    "answer": "Check calculation accuracy",
+    "category": "Tax",
+    "topic": "VAT Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "How do you validate VAT Filing?",
+    "answer": "Confirm digital payment receipt",
+    "category": "Tax",
+    "topic": "VAT Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "How do you validate VAT Filing?",
+    "answer": "Validate filing period",
+    "category": "Tax",
+    "topic": "VAT Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What is step 1 for Income Tax Filing?",
+    "answer": {
+      "en": "Register for e-Tax account",
+      "am": "Register for e-Tax account"
+    },
+    "category": "Tax",
+    "topic": "Income Tax Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What is step 2 for Income Tax Filing?",
+    "answer": {
+      "en": "Prepare income and expense documentation",
+      "am": "የገቢና የወጭ ሰነዶችን ያዘጋጁ"
+    },
+    "category": "Tax",
+    "topic": "Income Tax Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What is step 3 for Income Tax Filing?",
+    "answer": {
+      "en": "Login to e-Tax portal",
+      "am": "ወደ የኢ-ትክስ ፖርታል ይግቡ"
+    },
+    "category": "Tax",
+    "topic": "Income Tax Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What is step 4 for Income Tax Filing?",
+    "answer": {
+      "en": "Access income tax filing section",
+      "am": "ወደ የገቢ ግብ መግለጫ ክፍል ይድረሱ"
+    },
+    "category": "Tax",
+    "topic": "Income Tax Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What is step 5 for Income Tax Filing?",
+    "answer": {
+      "en": "Enter business income details",
+      "am": "የቢዝነስ ገቢ ዝርዝሮችን ያስገቡ"
+    },
+    "category": "Tax",
+    "topic": "Income Tax Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What is step 6 for Income Tax Filing?",
+    "answer": {
+      "en": "Report allowable deductions",
+      "am": "የተፈቀዱ መቅነሻዎችን ያመዝግቡ"
+    },
+    "category": "Tax",
+    "topic": "Income Tax Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What is step 7 for Income Tax Filing?",
+    "answer": {
+      "en": "Calculate tax liability",
+      "am": "የትክስ ኃላፊነት ያስሉ"
+    },
+    "category": "Tax",
+    "topic": "Income Tax Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What is step 8 for Income Tax Filing?",
+    "answer": {
+      "en": "Submit return and make payment",
+      "am": "መግለጫውን ያስገቡ እና ክፍያ ያድርጉ"
+    },
+    "category": "Tax",
+    "topic": "Income Tax Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What are the requirements for Income Tax Filing?",
+    "answer": "TIN (Tax Identification Number)",
+    "category": "Tax",
+    "topic": "Income Tax Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What are the requirements for Income Tax Filing?",
+    "answer": "Business registration",
+    "category": "Tax",
+    "topic": "Income Tax Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What are the requirements for Income Tax Filing?",
+    "answer": "Financial statements",
+    "category": "Tax",
+    "topic": "Income Tax Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What are the requirements for Income Tax Filing?",
+    "answer": "Expense documentation",
+    "category": "Tax",
+    "topic": "Income Tax Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "What are the requirements for Income Tax Filing?",
+    "answer": "Bank account for payments",
+    "category": "Tax",
+    "topic": "Income Tax Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "How do you validate Income Tax Filing?",
+    "answer": "Verify income against bank statements",
+    "category": "Tax",
+    "topic": "Income Tax Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "How do you validate Income Tax Filing?",
+    "answer": "Check expense deductions are allowable",
+    "category": "Tax",
+    "topic": "Income Tax Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "How do you validate Income Tax Filing?",
+    "answer": "Confirm tax calculation accuracy",
+    "category": "Tax",
+    "topic": "Income Tax Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "question": "How do you validate Income Tax Filing?",
+    "answer": "Validate payment confirmation",
+    "category": "Tax",
+    "topic": "Income Tax Filing",
+    "sector": "Manufacturing",
+    "language": "en"
+  }
+]

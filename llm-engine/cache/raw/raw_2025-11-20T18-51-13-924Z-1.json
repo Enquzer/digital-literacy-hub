@@ -1,0 +1,75 @@
+{
+  "id": "etax-income-tax-1",
+  "slug": "income-tax",
+  "title": "Income Tax Filing Process",
+  "source_url": "https://etax.mor.gov.et/income-tax",
+  "language": "en",
+  "version": "1.0",
+  "source_body": "This module explains the income tax filing process for Ethiopian businesses.",
+  "original_text": "This module explains the income tax filing process for Ethiopian businesses.",
+  "translated_text": "ይህ ሞድዩል ለኢትዮጵያ ንግዶች የገቢ ግብ መግለጫ ሂደትን ይብራራል።",
+  "category": "Taxation",
+  "workflows": [
+    {
+      "step": 1,
+      "description": {
+        "en": "Prepare income and expense documentation",
+        "am": "የገቢና የወጭ ሰነዶችን ያዘጋጁ"
+      }
+    },
+    {
+      "step": 2,
+      "description": {
+        "en": "Access income tax filing section",
+        "am": "ወደ የገቢ ግብ መግለጫ ክፍል ይድረሱ"
+      }
+    },
+    {
+      "step": 3,
+      "description": {
+        "en": "Enter business income details",
+        "am": "የቢዝነስ ገቢ ዝርዝሮችን ያስገቡ"
+      }
+    },
+    {
+      "step": 4,
+      "description": {
+        "en": "Report allowable deductions",
+        "am": "የተፈቀዱ መቅነሻዎችን ያመዝግቡ"
+      }
+    },
+    {
+      "step": 5,
+      "description": {
+        "en": "Calculate tax liability",
+        "am": "የትክስ ኃላፊነት ያስሉ"
+      }
+    },
+    {
+      "step": 6,
+      "description": {
+        "en": "Submit return and make payment",
+        "am": "መግለጫውን ያስገቡ እና ክፍያ ያድርጉ"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "What is the corporate income tax rate?",
+        "am": "የኮርፖሬት ገቢ ግብ መጠን ስንት ነው?"
+      },
+      "answer": {
+        "en": "The standard corporate income tax rate in Ethiopia is 30%.",
+        "am": "በኢትዮጵያ ውስጥ የመደበኛው የኮርፖሬት ገቢ ግብ መጠን 30% ነው።"
+      }
+    }
+  ],
+  "examples": [],
+  "required_documents": [
+    "Business license",
+    "Tax Identification Number (TIN)",
+    "Income and expense records"
+  ],
+  "updated_at": "2025-11-20T18:51:13.918Z"
+}

@@ -1,0 +1,135 @@
+{
+  "id": "quiz_test-module-001_1763587387048",
+  "module_id": "test-module-001",
+  "title": "Quiz: VAT Filing Process",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What category does the \"VAT Filing Process\" module belong to?",
+      "options": [
+        "Tax",
+        "Government approval",
+        "Verification code",
+        "None of the above"
+      ],
+      "correct_answer": 0,
+      "explanation": "The VAT Filing Process module is categorized under Tax.",
+      "difficulty": "easy",
+      "category": "knowledge"
+    },
+    {
+      "id": 2,
+      "question": "What is the main topic of the \"VAT Filing Process\" module?",
+      "options": [
+        "VAT Filing",
+        "Submission form",
+        "Submission form",
+        "General information"
+      ],
+      "correct_answer": 0,
+      "explanation": "The main topic of this module is VAT Filing.",
+      "difficulty": "easy",
+      "category": "knowledge"
+    },
+    {
+      "id": 3,
+      "question": "Which sector is the \"VAT Filing Process\" module primarily designed for?",
+      "options": [
+        "Manufacturing",
+        "Processing fee",
+        "Business license",
+        "All sectors"
+      ],
+      "correct_answer": 0,
+      "explanation": "This module is primarily designed for the Manufacturing sector.",
+      "difficulty": "easy",
+      "category": "knowledge"
+    },
+    {
+      "id": 4,
+      "question": "What is the first step in the VAT Filing Process process?",
+      "options": [
+        "Register for e-Tax account at etrax.mor.gov.et",
+        "Gather required documents: Business license, TIN, financial statements",
+        "Business license",
+        "Review documentation"
+      ],
+      "correct_answer": 0,
+      "explanation": "The first step in this process is: Register for e-Tax account at etrax.mor.gov.et",
+      "difficulty": "medium",
+      "category": "comprehension"
+    },
+    {
+      "id": 5,
+      "question": "Which step comes after preparing initial documentation in the VAT Filing Process process?",
+      "options": [
+        "Login to e-Tax portal",
+        "Gather required documents: Business license, TIN, financial statements",
+        "Government approval",
+        "Final submission"
+      ],
+      "correct_answer": 0,
+      "explanation": "After preparing initial documentation, the next step is: Login to e-Tax portal",
+      "difficulty": "medium",
+      "category": "comprehension"
+    },
+    {
+      "id": 6,
+      "question": "If you were starting the VAT Filing Process process today, what would be your first action?",
+      "options": [
+        "Begin by register for e-tax account at etrax.mor.gov.et",
+        "Review all requirements first",
+        "Contact support for guidance",
+        "Schedule a consultation"
+      ],
+      "correct_answer": 0,
+      "explanation": "The correct first action is to register for e-tax account at etrax.mor.gov.et, as this is the initial step in the process.",
+      "difficulty": "hard",
+      "category": "application"
+    },
+    {
+      "id": 7,
+      "question": "During the VAT Filing Process process, you notice an error in your calculations. What should you do first?",
+      "options": [
+        "Verify TIN against business registration",
+        "Resubmit the entire form",
+        "Ignore the error and continue",
+        "Contact technical support"
+      ],
+      "correct_answer": 0,
+      "explanation": "The first step should be to verify tin against business registration to identify and correct the issue.",
+      "difficulty": "hard",
+      "category": "application"
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is a key validation step in the VAT Filing Process process?",
+      "options": [
+        "Verify TIN against business registration",
+        "Verification code",
+        "Processing fee",
+        "Submit without review"
+      ],
+      "correct_answer": 0,
+      "explanation": "An important validation step is to verify tin against business registration to ensure accuracy.",
+      "difficulty": "medium",
+      "category": "validation"
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is a required document for the VAT Filing Process process?",
+      "options": [
+        "Valid TIN (Tax Identification Number)",
+        "Financial documentation",
+        "Processing fee",
+        "No documents required"
+      ],
+      "correct_answer": 0,
+      "explanation": "Valid TIN (Tax Identification Number) is one of the required documents for this process.",
+      "difficulty": "easy",
+      "category": "requirements"
+    }
+  ],
+  "created_at": "2025-11-19T21:23:07.048Z",
+  "version": "1.0"
+}

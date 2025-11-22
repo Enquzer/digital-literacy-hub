@@ -1,0 +1,86 @@
+[
+  {
+    "instruction": "Explain the process of Import Declaration Workflow",
+    "input": "",
+    "output": "# Import Declaration Workflow\n\n## Category: Customs\n## Sector: Import/Export\n\n## Steps:\n1. Obtain import license/permit\n   (Amharic: የማስመጣች ፈቃድ/ፍቃድ ያግኙ)\n2. Register on e-SW system\n   (Amharic: በኢ-ኤስዬ ስርዓት ላይ ይመዝግቡ)\n3. Prepare commercial invoice\n   (Amharic: የንግድ ኢንቮይስ ያዘጋጁ)\n4. Classify goods using HS codes\n   (Amharic: የኤችኤስ ኮዶችን በመጠቀም ምርቶችን ይመደቡ)\n5. Calculate applicable duties and taxes\n   (Amharic: የሚተገበሩ ጉምራሾች እና ታክሶችን ያስሉ)\n6. Submit import declaration\n   (Amharic: የማስመጣች መግለጫ ያስገቡ)\n7. Upload required documents\n   (Amharic: ያስፈላጊ ሰነዶችን ይስቀሉ)\n8. Pay duties and taxes\n   (Amharic: ጉምራሾች እና ታክሶች ይክፈሉ)\n9. Clear goods through customs\n   (Amharic: ምርቶችን በየክስተቱ ያጽዱ)\n\n## Requirements:\n- Valid import license\n- Commercial invoice\n- Packing list\n- Bill of lading or airway bill\n- Certificate of origin (if applicable)\n- Import permit for regulated goods\n- Insurance certificate (if applicable)\n\n## Validation:\n- Verify HS code classification\n- Check duty calculation accuracy\n- Validate document completeness\n- Confirm payment processing\n",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "instruction": "List the steps for Import Declaration Workflow",
+    "input": "",
+    "output": "[object Object]\n[object Object]\n[object Object]\n[object Object]\n[object Object]\n[object Object]\n[object Object]\n[object Object]\n[object Object]",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "instruction": "What are the requirements for Import Declaration Workflow?",
+    "input": "",
+    "output": "Valid import license\nCommercial invoice\nPacking list\nBill of lading or airway bill\nCertificate of origin (if applicable)\nImport permit for regulated goods\nInsurance certificate (if applicable)",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "instruction": "Explain the process of Export Declaration Workflow",
+    "input": "",
+    "output": "# Export Declaration Workflow\n\n## Category: Customs\n## Sector: Import/Export\n\n## Steps:\n1. Obtain export license/permit\n   (Amharic: የመላኪያ ፈቃድ/ፍቃድ ያግኙ)\n2. Register on e-SW system\n   (Amharic: በኢ-ኤስዬ ስርዓት ላይ ይመዝግቡ)\n3. Prepare commercial invoice\n   (Amharic: የንግድ ኢንቮይስ ያዘጋጁ)\n4. Classify goods using HS codes\n   (Amharic: የኤችኤስ ኮዶችን በመጠቀም ምርቶችን ይመደቡ)\n5. Submit export declaration\n   (Amharic: የመላኪያ መግለጫ ያስገቡ)\n6. Upload required documents\n   (Amharic: ያስፈላጊ ሰነዶችን ይስቀሉ)\n7. Obtain shipping instructions\n   (Amharic: የመላኪያ መመሪያዎችን ያግኙ)\n8. Clear goods through customs\n   (Amharic: ምርቶችን በየክስተቱ ያጽዱ)\n\n## Requirements:\n- Valid export license\n- Commercial invoice\n- Packing list\n- Certificate of origin\n- Export permit for regulated goods\n- Phytosanitary certificate (for agricultural products)\n\n## Validation:\n- Verify HS code classification\n- Check document completeness\n- Validate export permit\n- Confirm customs clearance\n",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "instruction": "List the steps for Export Declaration Workflow",
+    "input": "",
+    "output": "[object Object]\n[object Object]\n[object Object]\n[object Object]\n[object Object]\n[object Object]\n[object Object]\n[object Object]",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "instruction": "What are the requirements for Export Declaration Workflow?",
+    "input": "",
+    "output": "Valid export license\nCommercial invoice\nPacking list\nCertificate of origin\nExport permit for regulated goods\nPhytosanitary certificate (for agricultural products)",
+    "sector": "Import/Export",
+    "language": "en"
+  },
+  {
+    "instruction": "Explain the process of VAT Filing",
+    "input": "",
+    "output": "# VAT Filing\n\n## Category: Tax\n## Sector: Manufacturing\n\n## Steps:\n1. Register for e-Tax account at etrax.mor.gov.et\n   (Amharic: etrax.mor.gov.et ላይ ለኢ-ትክስ መለያ ይመዝግቡ)\n2. Gather required documents: Business license, TIN, financial statements\n   (Amharic: ያስፈላጊ ሰነዶችን ያሰኩ: የቢዝነስ ፈቃድ, የትክስ መለያ ቁጥር, የሂኑድ መግለጫዎች)\n3. Login to e-Tax portal\n   (Amharic: ወደ የኢ-ትክስ ፖርታል ይግቡ)\n4. Navigate to VAT filing section\n   (Amharic: ወደ የቫት መግለጫ ክፍል ይሂዱ)\n5. Enter sales and purchase data\n   (Amharic: የሽያጭ እና የግዢ ውሂብ ያስገቡ)\n6. Calculate VAT payable\n   (Amharic: የሚከፈል ቫት ያስሉ)\n7. Submit VAT return\n   (Amharic: የቫት መግለጫ ያስገቡ)\n8. Make payment through digital channels\n   (Amharic: በዲጂታል ጣቢያዎች ክፍያ ያድርጉ)\n\n## Requirements:\n- Valid TIN (Tax Identification Number)\n- Business registration certificate\n- Bank account for digital payments\n- Accounting records for the period\n\n## Validation:\n- Verify TIN against business registration\n- Check calculation accuracy\n- Confirm digital payment receipt\n- Validate filing period\n",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "instruction": "List the steps for VAT Filing",
+    "input": "",
+    "output": "[object Object]\n[object Object]\n[object Object]\n[object Object]\n[object Object]\n[object Object]\n[object Object]\n[object Object]",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "instruction": "What are the requirements for VAT Filing?",
+    "input": "",
+    "output": "Valid TIN (Tax Identification Number)\nBusiness registration certificate\nBank account for digital payments\nAccounting records for the period",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "instruction": "Explain the process of Income Tax Filing",
+    "input": "",
+    "output": "# Income Tax Filing\n\n## Category: Tax\n## Sector: Manufacturing\n\n## Steps:\n1. Register for e-Tax account\n2. Prepare income and expense documentation\n   (Amharic: የገቢና የወጭ ሰነዶችን ያዘጋጁ)\n3. Login to e-Tax portal\n   (Amharic: ወደ የኢ-ትክስ ፖርታል ይግቡ)\n4. Access income tax filing section\n   (Amharic: ወደ የገቢ ግብ መግለጫ ክፍል ይድረሱ)\n5. Enter business income details\n   (Amharic: የቢዝነስ ገቢ ዝርዝሮችን ያስገቡ)\n6. Report allowable deductions\n   (Amharic: የተፈቀዱ መቅነሻዎችን ያመዝግቡ)\n7. Calculate tax liability\n   (Amharic: የትክስ ኃላፊነት ያስሉ)\n8. Submit return and make payment\n   (Amharic: መግለጫውን ያስገቡ እና ክፍያ ያድርጉ)\n\n## Requirements:\n- TIN (Tax Identification Number)\n- Business registration\n- Financial statements\n- Expense documentation\n- Bank account for payments\n\n## Validation:\n- Verify income against bank statements\n- Check expense deductions are allowable\n- Confirm tax calculation accuracy\n- Validate payment confirmation\n",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "instruction": "List the steps for Income Tax Filing",
+    "input": "",
+    "output": "[object Object]\n[object Object]\n[object Object]\n[object Object]\n[object Object]\n[object Object]\n[object Object]\n[object Object]",
+    "sector": "Manufacturing",
+    "language": "en"
+  },
+  {
+    "instruction": "What are the requirements for Income Tax Filing?",
+    "input": "",
+    "output": "TIN (Tax Identification Number)\nBusiness registration\nFinancial statements\nExpense documentation\nBank account for payments",
+    "sector": "Manufacturing",
+    "language": "en"
+  }
+]

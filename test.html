@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test</title>
+</head>
+<body>
+    <h1>Test Page</h1>
+    <script>
+        console.log('Test script loaded');
+        // Check if Buffer is available
+        if (typeof Buffer !== 'undefined') {
+            console.log('Buffer is available');
+        } else {
+            console.log('Buffer is not available');
+        }
+        
+        // Check if stream is available
+        if (typeof stream !== 'undefined') {
+            console.log('stream is available');
+        } else {
+            console.log('stream is not available');
+        }
+        
+        // Check if events is available
+        if (typeof events !== 'undefined') {
+            console.log('events is available');
+        } else {
+            console.log('events is not available');
+        }
+    </script>
+</body>
+</html>

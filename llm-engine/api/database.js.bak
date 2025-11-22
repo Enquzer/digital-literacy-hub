@@ -1,0 +1,462 @@
+"use strict";
+var __assign = (this && this.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g = Object.create((typeof Iterator === "function" ? Iterator : Object).prototype);
+    return g.next = verb(0), g["throw"] = verb(1), g["return"] = verb(2), typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (g && (g = 0, op[0] && (_ = 0)), _) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.mysqlPool = void 0;
+exports.testMySQLConnection = testMySQLConnection;
+exports.getUserById = getUserById;
+exports.getUserByEmail = getUserByEmail;
+exports.createUser = createUser;
+exports.getUserRoles = getUserRoles;
+exports.assignUserRole = assignUserRole;
+exports.getCourses = getCourses;
+exports.getTrainingSessions = getTrainingSessions;
+exports.getUserSessions = getUserSessions;
+exports.registerForSession = registerForSession;
+exports.getSessionById = getSessionById;
+exports.saveModule = saveModule;
+exports.getModules = getModules;
+exports.getModuleById = getModuleById;
+exports.searchModules = searchModules;
+// Use dynamic import for mysql2/promise to avoid import issues
+let mysqlPromise = null;
+
+// Try to import mysql2/promise
+try {
+  mysqlPromise = require('mysql2/promise');
+} catch (error) {
+  console.warn('mysql2 not available, using mock implementation');
+  mysqlPromise = null;
+}
+
+// MySQL configuration
+const mysqlConfig = {
+  host: process.env.MYSQL_HOST || process.env.DB_HOST || 'localhost',
+  port: parseInt(process.env.MYSQL_PORT || '3306'),
+  user: process.env.MYSQL_USER || process.env.DB_USER || 'root',
+  password: process.env.MYSQL_PASSWORD || process.env.DB_PASSWORD || '',
+  database: process.env.MYSQL_DATABASE || process.env.DB_NAME || 'e_learning_platform',
+  connectionLimit: parseInt(process.env.MYSQL_CONNECTION_LIMIT || '10'),
+  queueLimit: parseInt(process.env.MYSQL_QUEUE_LIMIT || '0'),
+  acquireTimeout: parseInt(process.env.MYSQL_ACQUIRE_TIMEOUT || '60000'),
+  timeout: parseInt(process.env.MYSQL_TIMEOUT || '60000')
+};
+
+// Create MySQL connection pool with error handling
+if (mysqlPromise) {
+  try {
+    exports.mysqlPool = mysqlPromise.createPool(mysqlConfig);
+    console.log('MySQL connection pool created successfully');
+  } catch (error) {
+    console.warn('Failed to create MySQL connection pool, falling back to mock implementation:', error.message);
+    exports.mysqlPool = null;
+  }
+} else {
+  exports.mysqlPool = null;
+  console.log('Using mock database implementation');
+}
+
+// Mock data storage
+const mockUsers = {};
+const mockUserRoles = {};
+
+// Test MySQL connection
+async function testMySQLConnection() {
+  // If we don't have a mysqlPool, return false
+  if (!exports.mysqlPool) {
+    console.log('MySQL not available, using mock implementation');
+    return false;
+  }
+  
+  try {
+    const connection = await exports.mysqlPool.getConnection();
+    await connection.query('SELECT 1');
+    connection.release();
+    console.log('MySQL connection successful');
+    return true;
+  } catch (error) {
+    console.error('MySQL connection failed:', error.message);
+    return false;
+  }
+}
+
+// Mock database operations
+async function mockGetUserByEmail(email) {
+  return mockUsers[email] || null;
+}
+
+async function mockCreateUser(email, fullName) {
+  const userId = require("../utils/uuid").generateUUID();
+  mockUsers[email] = {
+    id: userId,
+    email: email,
+    full_name: fullName
+  };
+  return userId;
+}
+
+async function mockGetUserRoles(userId) {
+  return mockUserRoles[userId] || [];
+}
+
+async function mockAssignUserRole(userId, role) {
+  if (!mockUserRoles[userId]) {
+    mockUserRoles[userId] = [];
+  }
+  mockUserRoles[userId].push({ role: role });
+}
+
+// Database operations using MySQL or mock implementation
+function getUserByEmail(email) {
+  return __awaiter(this, void 0, void 0, function () {
+    var rows, result;
+    return __generator(this, function (_a) {
+      switch (_a.label) {
+        case 0: 
+          // Use mock implementation if MySQL is not available
+          if (!exports.mysqlPool) {
+            return [2 /*return*/, mockGetUserByEmail(email)];
+          }
+          return [4 /*yield*/, exports.mysqlPool.execute('SELECT * FROM profiles WHERE email = ?', [email])];
+        case 1:
+          rows = (_a.sent())[0];
+          result = rows;
+          return [2 /*return*/, result.length > 0 ? result[0] : null];
+      }
+    });
+  });
+}
+
+function createUser(email, fullName) {
+  return __awaiter(this, void 0, void 0, function () {
+    var userId;
+    return __generator(this, function (_a) {
+      switch (_a.label) {
+        case 0:
+          // Use mock implementation if MySQL is not available
+          if (!exports.mysqlPool) {
+            return [2 /*return*/, mockCreateUser(email, fullName)];
+          }
+          userId = (0, uuid_1.generateUUID)();
+          return [4 /*yield*/, exports.mysqlPool.execute('INSERT INTO profiles (id, full_name, email) VALUES (?, ?, ?)', [userId, fullName, email])];
+        case 1:
+          _a.sent();
+          return [2 /*return*/, userId];
+      }
+    });
+  });
+}
+
+function getUserRoles(userId) {
+  return __awaiter(this, void 0, void 0, function () {
+    var rows;
+    return __generator(this, function (_a) {
+      switch (_a.label) {
+        case 0:
+          // Use mock implementation if MySQL is not available
+          if (!exports.mysqlPool) {
+            return [2 /*return*/, mockGetUserRoles(userId)];
+          }
+          return [4 /*yield*/, exports.mysqlPool.execute('SELECT role FROM user_roles WHERE user_id = ?', [userId])];
+        case 1:
+          rows = (_a.sent())[0];
+          return [2 /*return*/, rows];
+      }
+    });
+  });
+}
+
+function assignUserRole(userId, role) {
+  return __awaiter(this, void 0, void 0, function () {
+    var roleId;
+    return __generator(this, function (_a) {
+      switch (_a.label) {
+        case 0:
+          // Use mock implementation if MySQL is not available
+          if (!exports.mysqlPool) {
+            return [2 /*return*/, mockAssignUserRole(userId, role)];
+          }
+          roleId = (0, uuid_1.generateUUID)();
+          return [4 /*yield*/, exports.mysqlPool.execute('INSERT INTO user_roles (id, user_id, role) VALUES (?, ?, ?)', [roleId, userId, role])];
+        case 1:
+          _a.sent();
+          return [2 /*return*/];
+      }
+    });
+  });
+}
+
+function getCourses() {
+    return __awaiter(this, arguments, void 0, function (isPublished) {
+        var query, params, rows;
+        if (isPublished === void 0) { isPublished = true; }
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0:
+                    query = 'SELECT * FROM courses';
+                    params = [];
+                    if (isPublished) {
+                        query += ' WHERE is_published = ?';
+                        params = [isPublished];
+                    }
+                    return [4 /*yield*/, exports.mysqlPool.execute(query, params)];
+                case 1:
+                    rows = (_a.sent())[0];
+                    return [2 /*return*/, rows];
+            }
+        });
+    });
+}
+// Session operations
+function getTrainingSessions() {
+    return __awaiter(this, void 0, void 0, function () {
+        var rows;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, exports.mysqlPool.execute("SELECT ts.*, c.title as course_title, p.full_name as trainer_name\n     FROM training_sessions ts\n     LEFT JOIN courses c ON ts.course_id = c.id\n     LEFT JOIN profiles p ON ts.trainer_id = p.id\n     ORDER BY ts.start_time ASC")];
+                case 1:
+                    rows = (_a.sent())[0];
+                    return [2 /*return*/, rows];
+            }
+        });
+    });
+}
+function getUserSessions(userId) {
+    return __awaiter(this, void 0, void 0, function () {
+        var rows;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, exports.mysqlPool.execute("SELECT ts.*, c.title as course_title, p.full_name as trainer_name,\n     CASE WHEN sr.user_id IS NOT NULL THEN 1 ELSE 0 END as registered,\n     CASE WHEN sa.user_id IS NOT NULL THEN 1 ELSE 0 END as attended\n     FROM training_sessions ts\n     LEFT JOIN courses c ON ts.course_id = c.id\n     LEFT JOIN profiles p ON ts.trainer_id = p.id\n     LEFT JOIN session_registrations sr ON ts.id = sr.session_id AND sr.user_id = ?\n     LEFT JOIN session_attendance sa ON ts.id = sa.session_id AND sa.user_id = ?\n     ORDER BY ts.start_time ASC", [userId, userId])];
+                case 1:
+                    rows = (_a.sent())[0];
+                    return [2 /*return*/, rows];
+            }
+        });
+    });
+}
+function registerForSession(sessionId, userId) {
+    return __awaiter(this, void 0, void 0, function () {
+        var existing, registrationId;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, exports.mysqlPool.execute('SELECT id FROM session_registrations WHERE session_id = ? AND user_id = ?', [sessionId, userId])];
+                case 1:
+                    existing = (_a.sent())[0];
+                    if (existing.length > 0) {
+                        throw new Error('Already registered for this session');
+                    }
+                    registrationId = (0, uuid_1.generateUUID)();
+                    return [4 /*yield*/, exports.mysqlPool.execute('INSERT INTO session_registrations (id, session_id, user_id, registered_at) VALUES (?, ?, ?, NOW())', [registrationId, sessionId, userId])];
+                case 2:
+                    _a.sent();
+                    return [2 /*return*/, registrationId];
+            }
+        });
+    });
+}
+function getSessionById(sessionId) {
+    return __awaiter(this, void 0, void 0, function () {
+        var rows, result;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, exports.mysqlPool.execute("SELECT ts.*, c.title as course_title, p.full_name as trainer_name\n     FROM training_sessions ts\n     LEFT JOIN courses c ON ts.course_id = c.id\n     LEFT JOIN profiles p ON ts.trainer_id = p.id\n     WHERE ts.id = ?", [sessionId])];
+                case 1:
+                    rows = (_a.sent())[0];
+                    result = rows;
+                    return [2 /*return*/, result.length > 0 ? result[0] : null];
+            }
+        });
+    });
+}
+// Module operations
+function saveModule(module) {
+    return __awaiter(this, void 0, void 0, function () {
+        var existing, existingRows, versionId, error_2;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0:
+                    _a.trys.push([0, 7, , 8]);
+                    return [4 /*yield*/, exports.mysqlPool.execute('SELECT id FROM modules WHERE id = ?', [module.id])];
+                case 1:
+                    existing = (_a.sent())[0];
+                    existingRows = existing;
+                    if (!(existingRows.length > 0)) return [3 /*break*/, 3];
+                    // Update existing module
+                    return [4 /*yield*/, exports.mysqlPool.execute("UPDATE modules SET \n         slug = ?, title = ?, source_url = ?, language = ?, version = ?, \n         status = ?, metadata = ?, updated_at = NOW()\n         WHERE id = ?", [
+                            module.slug,
+                            module.title,
+                            module.source_url,
+                            module.language,
+                            module.version || '1.0',
+                            module.status || 'published',
+                            JSON.stringify(module.metadata || {}),
+                            module.id
+                        ])];
+                case 2:
+                    // Update existing module
+                    _a.sent();
+                    return [3 /*break*/, 5];
+                case 3: 
+                // Insert new module
+                return [4 /*yield*/, exports.mysqlPool.execute("INSERT INTO modules (id, slug, title, source_url, language, version, status, metadata)\n         VALUES (?, ?, ?, ?, ?, ?, ?, ?)", [
+                        module.id,
+                        module.slug,
+                        module.title,
+                        module.source_url,
+                        module.language,
+                        module.version || '1.0',
+                        module.status || 'published',
+                        JSON.stringify(module.metadata || {})
+                    ])];
+                case 4:
+                    // Insert new module
+                    _a.sent();
+                    _a.label = 5;
+                case 5:
+                    versionId = (0, uuid_1.generateUUID)();
+                    return [4 /*yield*/, exports.mysqlPool.execute("INSERT INTO module_versions (module_id, version, path_to_json, created_at)\n       VALUES (?, ?, ?, NOW())\n       ON DUPLICATE KEY UPDATE path_to_json = ?", [module.id, module.version || '1.0', JSON.stringify(module), JSON.stringify(module)])];
+                case 6:
+                    _a.sent();
+                    return [2 /*return*/, module.id];
+                case 7:
+                    error_2 = _a.sent();
+                    console.error('Error saving module:', error_2);
+                    throw error_2;
+                case 8: return [2 /*return*/];
+            }
+        });
+    });
+}
+function getModules() {
+    return __awaiter(this, arguments, void 0, function (filters) {
+        var query, params, rows, modules, error_3;
+        if (filters === void 0) { filters = {}; }
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0:
+                    _a.trys.push([0, 2, , 3]);
+                    query = "\n      SELECT m.*, mv.path_to_json \n      FROM modules m\n      JOIN module_versions mv ON m.id = mv.module_id\n      WHERE mv.created_at = (\n        SELECT MAX(created_at) \n        FROM module_versions mv2 \n        WHERE mv2.module_id = m.id\n      )\n    ";
+                    params = [];
+                    if (filters.language) {
+                        query += ' AND m.language = ?';
+                        params.push(filters.language);
+                    }
+                    if (filters.status) {
+                        query += ' AND m.status = ?';
+                        params.push(filters.status);
+                    }
+                    query += ' ORDER BY m.created_at DESC';
+                    return [4 /*yield*/, exports.mysqlPool.execute(query, params)];
+                case 1:
+                    rows = (_a.sent())[0];
+                    modules = rows;
+                    // Parse JSON content
+                    return [2 /*return*/, modules.map(function (module) { return (__assign(__assign({}, module), { metadata: module.metadata ? JSON.parse(module.metadata) : {}, content: module.path_to_json ? JSON.parse(module.path_to_json) : {} })); })];
+                case 2:
+                    error_3 = _a.sent();
+                    console.error('Error fetching modules:', error_3);
+                    throw error_3;
+                case 3: return [2 /*return*/];
+            }
+        });
+    });
+}
+function getModuleById(moduleId) {
+    return __awaiter(this, void 0, void 0, function () {
+        var rows, modules, module_1, error_4;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0:
+                    _a.trys.push([0, 2, , 3]);
+                    return [4 /*yield*/, exports.mysqlPool.execute("\n      SELECT m.*, mv.path_to_json \n      FROM modules m\n      JOIN module_versions mv ON m.id = mv.module_id\n      WHERE m.id = ?\n      ORDER BY mv.created_at DESC\n      LIMIT 1\n      ", [moduleId])];
+                case 1:
+                    rows = (_a.sent())[0];
+                    modules = rows;
+                    if (modules.length === 0)
+                        return [2 /*return*/, null];
+                    module_1 = modules[0];
+                    return [2 /*return*/, __assign(__assign({}, module_1), { metadata: module_1.metadata ? JSON.parse(module_1.metadata) : {}, content: module_1.path_to_json ? JSON.parse(module_1.path_to_json) : {} })];
+                case 2:
+                    error_4 = _a.sent();
+                    console.error('Error fetching module by ID:', error_4);
+                    throw error_4;
+                case 3: return [2 /*return*/];
+            }
+        });
+    });
+}
+function searchModules(query_1) {
+    return __awaiter(this, arguments, void 0, function (query, filters) {
+        var sql, params, rows, modules, error_5;
+        if (filters === void 0) { filters = {}; }
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0:
+                    _a.trys.push([0, 2, , 3]);
+                    sql = "\n      SELECT m.*, mv.path_to_json \n      FROM modules m\n      JOIN module_versions mv ON m.id = mv.module_id\n      WHERE mv.created_at = (\n        SELECT MAX(created_at) \n        FROM module_versions mv2 \n        WHERE mv2.module_id = m.id\n      )\n      AND (m.title LIKE ? OR m.slug LIKE ?)\n    ";
+                    params = ["%".concat(query, "%"), "%".concat(query, "%")];
+                    if (filters.language) {
+                        sql += ' AND m.language = ?';
+                        params.push(filters.language);
+                    }
+                    sql += ' ORDER BY m.created_at DESC';
+                    return [4 /*yield*/, exports.mysqlPool.execute(sql, params)];
+                case 1:
+                    rows = (_a.sent())[0];
+                    modules = rows;
+                    // Parse JSON content
+                    return [2 /*return*/, modules.map(function (module) { return (__assign(__assign({}, module), { metadata: module.metadata ? JSON.parse(module.metadata) : {}, content: module.path_to_json ? JSON.parse(module.path_to_json) : {} })); })];
+                case 2:
+                    error_5 = _a.sent();
+                    console.error('Error searching modules:', error_5);
+                    throw error_5;
+                case 3: return [2 /*return*/];
+            }
+        });
+    });
+}

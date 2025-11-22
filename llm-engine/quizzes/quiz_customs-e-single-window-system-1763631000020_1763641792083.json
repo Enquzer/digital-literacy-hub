@@ -1,0 +1,135 @@
+{
+  "id": "quiz_customs-e-single-window-system-1763631000020_1763641792083",
+  "module_id": "customs-e-single-window-system-1763631000020",
+  "title": "Quiz: Ethiopian Customs Commission",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What category does the \"Ethiopian Customs Commission\" module belong to?",
+      "options": [
+        "Customs",
+        "Financial documentation",
+        "Processing fee",
+        "None of the above"
+      ],
+      "correct_answer": 0,
+      "explanation": "The Ethiopian Customs Commission module is categorized under Customs.",
+      "difficulty": "easy",
+      "category": "knowledge"
+    },
+    {
+      "id": 2,
+      "question": "What is the main topic of the \"Ethiopian Customs Commission\" module?",
+      "options": [
+        "e-Single Window System",
+        "Financial documentation",
+        "Processing fee",
+        "General information"
+      ],
+      "correct_answer": 0,
+      "explanation": "The main topic of this module is e-Single Window System.",
+      "difficulty": "easy",
+      "category": "knowledge"
+    },
+    {
+      "id": 3,
+      "question": "Which sector is the \"Ethiopian Customs Commission\" module primarily designed for?",
+      "options": [
+        "Import/Export",
+        "Verification code",
+        "Tax identification number",
+        "All sectors"
+      ],
+      "correct_answer": 0,
+      "explanation": "This module is primarily designed for the Import/Export sector.",
+      "difficulty": "easy",
+      "category": "knowledge"
+    },
+    {
+      "id": 4,
+      "question": "What is the first step in the Ethiopian Customs Commission process?",
+      "options": [
+        "Register on e-SW system at singlewindow.gov.et",
+        "Create business profile",
+        "Tax identification number",
+        "Review documentation"
+      ],
+      "correct_answer": 0,
+      "explanation": "The first step in this process is: Register on e-SW system at singlewindow.gov.et",
+      "difficulty": "medium",
+      "category": "comprehension"
+    },
+    {
+      "id": 5,
+      "question": "Which step comes after preparing initial documentation in the Ethiopian Customs Commission process?",
+      "options": [
+        "Submit import/export declarations",
+        "Link with customs account",
+        "Verification code",
+        "Final submission"
+      ],
+      "correct_answer": 0,
+      "explanation": "After preparing initial documentation, the next step is: Submit import/export declarations",
+      "difficulty": "medium",
+      "category": "comprehension"
+    },
+    {
+      "id": 6,
+      "question": "If you were starting the Ethiopian Customs Commission process today, what would be your first action?",
+      "options": [
+        "Begin by register on e-sw system at singlewindow.gov.et",
+        "Review all requirements first",
+        "Contact support for guidance",
+        "Schedule a consultation"
+      ],
+      "correct_answer": 0,
+      "explanation": "The correct first action is to register on e-sw system at singlewindow.gov.et, as this is the initial step in the process.",
+      "difficulty": "hard",
+      "category": "application"
+    },
+    {
+      "id": 7,
+      "question": "During the Ethiopian Customs Commission process, you notice an error in your calculations. What should you do first?",
+      "options": [
+        "Document authenticity verification",
+        "Resubmit the entire form",
+        "Ignore the error and continue",
+        "Contact technical support"
+      ],
+      "correct_answer": 0,
+      "explanation": "The first step should be to document authenticity verification to identify and correct the issue.",
+      "difficulty": "hard",
+      "category": "application"
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is a key validation step in the Ethiopian Customs Commission process?",
+      "options": [
+        "Document authenticity verification",
+        "Digital certificate",
+        "Verification code",
+        "Submit without review"
+      ],
+      "correct_answer": 0,
+      "explanation": "An important validation step is to document authenticity verification to ensure accuracy.",
+      "difficulty": "medium",
+      "category": "validation"
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is a required document for the Ethiopian Customs Commission process?",
+      "options": [
+        "Valid business registration",
+        "Business license",
+        "Verification code",
+        "No documents required"
+      ],
+      "correct_answer": 0,
+      "explanation": "Valid business registration is one of the required documents for this process.",
+      "difficulty": "easy",
+      "category": "requirements"
+    }
+  ],
+  "created_at": "2025-11-20T12:29:52.087Z",
+  "version": "1.0"
+}

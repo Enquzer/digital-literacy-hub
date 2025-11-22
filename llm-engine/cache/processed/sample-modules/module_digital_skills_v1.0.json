@@ -1,0 +1,53 @@
+{
+  "id": "egov-digital-skills-12347",
+  "slug": "egov-digital-skills",
+  "title": "e-Government Digital Skills",
+  "source_url": "https://egov.gov.et/digital-skills",
+  "language": "en",
+  "original_text": "Create government service account. Verify your identity.",
+  "translated_text": "የመንግስት አገልግሎት መለያ ይፍጠሩ. እርስዎን ያረጋግጡ.",
+  "category": "Digital Skills",
+  "tags": [
+    "digital-literacy",
+    "egov",
+    "skills"
+  ],
+  "sector_tags": [
+    "public-administration"
+  ],
+  "workflows": [
+    {
+      "step": 1,
+      "description": {
+        "en": "Create government service account",
+        "am": "የመንግስት አገልግሎት መለያ ይፍጠሩ"
+      }
+    },
+    {
+      "step": 2,
+      "description": {
+        "en": "Verify your identity",
+        "am": "እርስዎን ያረጋግጡ"
+      }
+    }
+  ],
+  "required_documents": [
+    "Valid ID",
+    "Mobile phone number"
+  ],
+  "examples": [
+    {
+      "title": {
+        "en": "Account Registration",
+        "am": "የመለያ ምዝገባ"
+      },
+      "description": {
+        "en": "Step-by-step guide to register for government services.",
+        "am": "ለመንግስት አገልግሎቶች መመዝገብ የሚያስችል ደረጃ በደረጃ መመሪያ።"
+      }
+    }
+  ],
+  "updated_at": "2025-11-18T16:31:19.545Z",
+  "version": "1.0",
+  "legal_source": true
+}

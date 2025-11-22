@@ -1,0 +1,69 @@
+{
+  "id": "tax-etax-registration-12345",
+  "slug": "etax-registration",
+  "title": "e-Tax Registration Process",
+  "source_url": "https://etax.mor.gov.et/registration",
+  "language": "am",
+  "original_text": "etrax.mor.gov.et ላይ ለኢ-ትክስ መለያ ይመዝግቡ. በ'አዲስ ተጠቃሚ ምዝገባ' ላይ ይጫኑ.",
+  "translated_text": "Register for e-Tax account at etrax.mor.gov.et. Click on 'New User Registration'.",
+  "category": "Tax",
+  "tags": [
+    "registration",
+    "etax",
+    "mor"
+  ],
+  "sector_tags": [
+    "government-services"
+  ],
+  "workflows": [
+    {
+      "step": 1,
+      "description": {
+        "en": "Visit etax.mor.gov.et",
+        "am": "etrax.mor.gov.et ላይ ይጎብኙ"
+      }
+    },
+    {
+      "step": 2,
+      "description": {
+        "en": "Click on 'New User Registration'",
+        "am": "በ'አዲስ ተጠቃሚ ምዝገባ' ላይ ይጫኑ"
+      }
+    }
+  ],
+  "required_documents": [
+    "Valid identification document",
+    "Business registration certificate"
+  ],
+  "common_errors": [
+    "Incorrect email format",
+    "Missing document verification"
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "What documents are required for registration?",
+        "am": "ለምዝገባ የሚያስፈልጉ ሰነዶች ምንድን ናቸው?"
+      },
+      "answer": {
+        "en": "You need a valid ID and business registration certificate.",
+        "am": "እርስዎ ልክ የተሰጠ መለያ እና የቢዝነስ ምዝገባ ማረጋገጫ ያስፈልግዎታል።"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "title": {
+        "en": "Successful Registration Example",
+        "am": "የተሳካ ምዝገባ ምሳሌ"
+      },
+      "description": {
+        "en": "A business successfully registered for e-Tax services.",
+        "am": "ቢዝነስ ለኢ-ትክስ አገልግሎቶች በተሳካ ሁኔታ ተመዝግቧል።"
+      }
+    }
+  ],
+  "updated_at": "2025-11-18T16:31:19.544Z",
+  "version": "1.0",
+  "legal_source": true
+}

@@ -1,0 +1,226 @@
+[
+  {
+    "instruction": "Summarize the following government service process:",
+    "input": "# e-Single Window System\n\n## Category: Customs\n## Sector: Import/Export\n\n## Steps:\n1. Register on e-SW system at singlewindow.gov.et\n2. Create business profile\n3. Link with customs account\n4. Submit import/export declarations\n5. Upload required documents\n   (Amharic: ያስፈላጊ ሰነዶችን ይስቀሉ)\n6. Track declaration status\n\n## Requirements:\n- Valid business registration\n- Tax identification number\n- Customs registration\n- Required trade licenses\n\n## Validation:\n- Document authenticity verification\n- Regula",
+    "output": "This module explains the Ethiopian Customs Commission process in the Customs category.",
+    "language": "en",
+    "module_id": "customs-e-single-window-system-1763659718857"
+  },
+  {
+    "instruction": "የሚከተለውን የመንግስት አገልግሎት ሂደት ያጠቃልሉ:",
+    "input": "# e-Single Window System\n\n## Category: Customs\n## Sector: Import/Export\n\n## Steps:\n1. Register on e-SW system at singlewindow.gov.et\n2. Create business profile\n3. Link with customs account\n4. Submit import/export declarations\n5. Upload required documents\n   (Amharic: ያስፈላጊ ሰነዶችን ይስቀሉ)\n6. Track declaration status\n\n## Requirements:\n- Valid business registration\n- Tax identification number\n- Customs registration\n- Required trade licenses\n\n## Validation:\n- Document authenticity verification\n- Regula",
+    "output": "ይህ ሞድዩል በCustoms ምድብ ውስጥ የEthiopian Customs Commission ሂደትን ይብራራል።",
+    "language": "am",
+    "module_id": "customs-e-single-window-system-1763659718857"
+  },
+  {
+    "instruction": "Provide step-by-step guidance for the following process:",
+    "input": "Ethiopian Customs Commission",
+    "output": "Register on e-SW system at singlewindow.gov.et\nCreate business profile\nLink with customs account\nSubmit import/export declarations\nUpload required documents\nTrack declaration status",
+    "language": "en",
+    "module_id": "customs-e-single-window-system-1763659718857"
+  },
+  {
+    "instruction": "ለሚከተለው ሂደት ደረጃ በደረጃ መመሪያ ያቅርቡ:",
+    "input": "Ethiopian Customs Commission",
+    "output": "Register on e-SW system at singlewindow.gov.et\nCreate business profile\nLink with customs account\nSubmit import/export declarations\nያስፈላጊ ሰነዶችን ይስቀሉ\nTrack declaration status",
+    "language": "am",
+    "module_id": "customs-e-single-window-system-1763659718857"
+  },
+  {
+    "instruction": "Summarize the following government service process:",
+    "input": "# eTrade Portal\n\n## Category: Trade\n## Sector: Import/Export\n\n## Steps:\n1. Visit ectradeportal.customs.gov.et\n2. Register for an account\n3. Complete business verification\n4. Access trade statistics\n5. Generate trade reports\n6. Monitor trade activities\n\n## Requirements:\n- Valid business registration\n- Trade license\n- Contact information\n\n## Validation:\n- Business registration verification\n- License authenticity check\n",
+    "output": "This module explains the Ethiopian Customs Commission process in the Trade category.",
+    "language": "en",
+    "module_id": "trade-etrade-portal-1763659718858"
+  },
+  {
+    "instruction": "የሚከተለውን የመንግስት አገልግሎት ሂደት ያጠቃልሉ:",
+    "input": "# eTrade Portal\n\n## Category: Trade\n## Sector: Import/Export\n\n## Steps:\n1. Visit ectradeportal.customs.gov.et\n2. Register for an account\n3. Complete business verification\n4. Access trade statistics\n5. Generate trade reports\n6. Monitor trade activities\n\n## Requirements:\n- Valid business registration\n- Trade license\n- Contact information\n\n## Validation:\n- Business registration verification\n- License authenticity check\n",
+    "output": "ይህ ሞድዩል በTrade ምድብ ውስጥ የEthiopian Customs Commission ሂደትን ይብራራል።",
+    "language": "am",
+    "module_id": "trade-etrade-portal-1763659718858"
+  },
+  {
+    "instruction": "Provide step-by-step guidance for the following process:",
+    "input": "Ethiopian Customs Commission",
+    "output": "Visit ectradeportal.customs.gov.et\nRegister for an account\nComplete business verification\nAccess trade statistics\nGenerate trade reports\nMonitor trade activities",
+    "language": "en",
+    "module_id": "trade-etrade-portal-1763659718858"
+  },
+  {
+    "instruction": "ለሚከተለው ሂደት ደረጃ በደረጃ መመሪያ ያቅርቡ:",
+    "input": "Ethiopian Customs Commission",
+    "output": "Visit ectradeportal.customs.gov.et\nRegister for an account\nComplete business verification\nAccess trade statistics\nGenerate trade reports\nMonitor trade activities",
+    "language": "am",
+    "module_id": "trade-etrade-portal-1763659718858"
+  },
+  {
+    "instruction": "Summarize the following government service process:",
+    "input": "# Import Declaration Workflow\n\n## Category: Customs\n## Sector: Import/Export\n\n## Steps:\n1. Obtain import license/permit\n   (Amharic: የማስመጣች ፈቃድ/ፍቃድ ያግኙ)\n2. Register on e-SW system\n   (Amharic: በኢ-ኤስዬ ስርዓት ላይ ይመዝግቡ)\n3. Prepare commercial invoice\n   (Amharic: የንግድ ኢንቮይስ ያዘጋጁ)\n4. Classify goods using HS codes\n   (Amharic: የኤችኤስ ኮዶችን በመጠቀም ምርቶችን ይመደቡ)\n5. Calculate applicable duties and taxes\n   (Amharic: የሚተገበሩ ጉምራሾች እና ታክሶችን ያስሉ)\n6. Submit import declaration\n   (Amharic: የማስመጣች መግለጫ ያስገቡ)\n7. Upload",
+    "output": "This module explains the Customs & e-SW process in the Customs category.",
+    "language": "en",
+    "module_id": "customs-import-declaration-workflow-1763659718882"
+  },
+  {
+    "instruction": "የሚከተለውን የመንግስት አገልግሎት ሂደት ያጠቃልሉ:",
+    "input": "# Import Declaration Workflow\n\n## Category: Customs\n## Sector: Import/Export\n\n## Steps:\n1. Obtain import license/permit\n   (Amharic: የማስመጣች ፈቃድ/ፍቃድ ያግኙ)\n2. Register on e-SW system\n   (Amharic: በኢ-ኤስዬ ስርዓት ላይ ይመዝግቡ)\n3. Prepare commercial invoice\n   (Amharic: የንግድ ኢንቮይስ ያዘጋጁ)\n4. Classify goods using HS codes\n   (Amharic: የኤችኤስ ኮዶችን በመጠቀም ምርቶችን ይመደቡ)\n5. Calculate applicable duties and taxes\n   (Amharic: የሚተገበሩ ጉምራሾች እና ታክሶችን ያስሉ)\n6. Submit import declaration\n   (Amharic: የማስመጣች መግለጫ ያስገቡ)\n7. Upload",
+    "output": "ይህ ሞድዩል በCustoms ምድብ ውስጥ የCustoms & e-SW ሂደትን ይብራራል።",
+    "language": "am",
+    "module_id": "customs-import-declaration-workflow-1763659718882"
+  },
+  {
+    "instruction": "Provide step-by-step guidance for the following process:",
+    "input": "Customs & e-SW",
+    "output": "Obtain import license/permit\nRegister on e-SW system\nPrepare commercial invoice\nClassify goods using HS codes\nCalculate applicable duties and taxes\nSubmit import declaration\nUpload required documents\nPay duties and taxes\nClear goods through customs",
+    "language": "en",
+    "module_id": "customs-import-declaration-workflow-1763659718882"
+  },
+  {
+    "instruction": "ለሚከተለው ሂደት ደረጃ በደረጃ መመሪያ ያቅርቡ:",
+    "input": "Customs & e-SW",
+    "output": "የማስመጣች ፈቃድ/ፍቃድ ያግኙ\nበኢ-ኤስዬ ስርዓት ላይ ይመዝግቡ\nየንግድ ኢንቮይስ ያዘጋጁ\nየኤችኤስ ኮዶችን በመጠቀም ምርቶችን ይመደቡ\nየሚተገበሩ ጉምራሾች እና ታክሶችን ያስሉ\nየማስመጣች መግለጫ ያስገቡ\nያስፈላጊ ሰነዶችን ይስቀሉ\nጉምራሾች እና ታክሶች ይክፈሉ\nምርቶችን በየክስተቱ ያጽዱ",
+    "language": "am",
+    "module_id": "customs-import-declaration-workflow-1763659718882"
+  },
+  {
+    "instruction": "Summarize the following government service process:",
+    "input": "# Export Declaration Workflow\n\n## Category: Customs\n## Sector: Import/Export\n\n## Steps:\n1. Obtain export license/permit\n   (Amharic: የመላኪያ ፈቃድ/ፍቃድ ያግኙ)\n2. Register on e-SW system\n   (Amharic: በኢ-ኤስዬ ስርዓት ላይ ይመዝግቡ)\n3. Prepare commercial invoice\n   (Amharic: የንግድ ኢንቮይስ ያዘጋጁ)\n4. Classify goods using HS codes\n   (Amharic: የኤችኤስ ኮዶችን በመጠቀም ምርቶችን ይመደቡ)\n5. Submit export declaration\n   (Amharic: የመላኪያ መግለጫ ያስገቡ)\n6. Upload required documents\n   (Amharic: ያስፈላጊ ሰነዶችን ይስቀሉ)\n7. Obtain shipping instructions\n",
+    "output": "This module explains the Customs & e-SW process in the Customs category.",
+    "language": "en",
+    "module_id": "customs-export-declaration-workflow-1763659718882"
+  },
+  {
+    "instruction": "የሚከተለውን የመንግስት አገልግሎት ሂደት ያጠቃልሉ:",
+    "input": "# Export Declaration Workflow\n\n## Category: Customs\n## Sector: Import/Export\n\n## Steps:\n1. Obtain export license/permit\n   (Amharic: የመላኪያ ፈቃድ/ፍቃድ ያግኙ)\n2. Register on e-SW system\n   (Amharic: በኢ-ኤስዬ ስርዓት ላይ ይመዝግቡ)\n3. Prepare commercial invoice\n   (Amharic: የንግድ ኢንቮይስ ያዘጋጁ)\n4. Classify goods using HS codes\n   (Amharic: የኤችኤስ ኮዶችን በመጠቀም ምርቶችን ይመደቡ)\n5. Submit export declaration\n   (Amharic: የመላኪያ መግለጫ ያስገቡ)\n6. Upload required documents\n   (Amharic: ያስፈላጊ ሰነዶችን ይስቀሉ)\n7. Obtain shipping instructions\n",
+    "output": "ይህ ሞድዩል በCustoms ምድብ ውስጥ የCustoms & e-SW ሂደትን ይብራራል።",
+    "language": "am",
+    "module_id": "customs-export-declaration-workflow-1763659718882"
+  },
+  {
+    "instruction": "Provide step-by-step guidance for the following process:",
+    "input": "Customs & e-SW",
+    "output": "Obtain export license/permit\nRegister on e-SW system\nPrepare commercial invoice\nClassify goods using HS codes\nSubmit export declaration\nUpload required documents\nObtain shipping instructions\nClear goods through customs",
+    "language": "en",
+    "module_id": "customs-export-declaration-workflow-1763659718882"
+  },
+  {
+    "instruction": "ለሚከተለው ሂደት ደረጃ በደረጃ መመሪያ ያቅርቡ:",
+    "input": "Customs & e-SW",
+    "output": "የመላኪያ ፈቃድ/ፍቃድ ያግኙ\nበኢ-ኤስዬ ስርዓት ላይ ይመዝግቡ\nየንግድ ኢንቮይስ ያዘጋጁ\nየኤችኤስ ኮዶችን በመጠቀም ምርቶችን ይመደቡ\nየመላኪያ መግለጫ ያስገቡ\nያስፈላጊ ሰነዶችን ይስቀሉ\nየመላኪያ መመሪያዎችን ያግኙ\nምርቶችን በየክስተቱ ያጽዱ",
+    "language": "am",
+    "module_id": "customs-export-declaration-workflow-1763659718882"
+  },
+  {
+    "instruction": "Summarize the following government service process:",
+    "input": "# VAT Filing\n\n## Category: Tax\n## Sector: Manufacturing\n\n## Steps:\n1. Register for e-Tax account at etrax.mor.gov.et\n   (Amharic: etrax.mor.gov.et ላይ ለኢ-ትክስ መለያ ይመዝግቡ)\n2. Gather required documents: Business license, TIN, financial statements\n   (Amharic: ያስፈላጊ ሰነዶችን ያሰኩ: የቢዝነስ ፈቃድ, የትክስ መለያ ቁጥር, የሂኑድ መግለጫዎች)\n3. Login to e-Tax portal\n   (Amharic: ወደ የኢ-ትክስ ፖርታል ይግቡ)\n4. Navigate to VAT filing section\n   (Amharic: ወደ የቫት መግለጫ ክፍል ይሂዱ)\n5. Enter sales and purchase data\n   (Amharic: የሽያጭ እና የግዢ ውሂብ ያስ",
+    "output": "This module explains the E-Tax System process in the Tax category.",
+    "language": "en",
+    "module_id": "tax-vat-filing-1763659718885"
+  },
+  {
+    "instruction": "የሚከተለውን የመንግስት አገልግሎት ሂደት ያጠቃልሉ:",
+    "input": "# VAT Filing\n\n## Category: Tax\n## Sector: Manufacturing\n\n## Steps:\n1. Register for e-Tax account at etrax.mor.gov.et\n   (Amharic: etrax.mor.gov.et ላይ ለኢ-ትክስ መለያ ይመዝግቡ)\n2. Gather required documents: Business license, TIN, financial statements\n   (Amharic: ያስፈላጊ ሰነዶችን ያሰኩ: የቢዝነስ ፈቃድ, የትክስ መለያ ቁጥር, የሂኑድ መግለጫዎች)\n3. Login to e-Tax portal\n   (Amharic: ወደ የኢ-ትክስ ፖርታል ይግቡ)\n4. Navigate to VAT filing section\n   (Amharic: ወደ የቫት መግለጫ ክፍል ይሂዱ)\n5. Enter sales and purchase data\n   (Amharic: የሽያጭ እና የግዢ ውሂብ ያስ",
+    "output": "ይህ ሞድዩል በTax ምድብ ውስጥ የE-Tax System ሂደትን ይብራራል።",
+    "language": "am",
+    "module_id": "tax-vat-filing-1763659718885"
+  },
+  {
+    "instruction": "Provide step-by-step guidance for the following process:",
+    "input": "E-Tax System",
+    "output": "Register for e-Tax account at etrax.mor.gov.et\nGather required documents: Business license, TIN, financial statements\nLogin to e-Tax portal\nNavigate to VAT filing section\nEnter sales and purchase data\nCalculate VAT payable\nSubmit VAT return\nMake payment through digital channels",
+    "language": "en",
+    "module_id": "tax-vat-filing-1763659718885"
+  },
+  {
+    "instruction": "ለሚከተለው ሂደት ደረጃ በደረጃ መመሪያ ያቅርቡ:",
+    "input": "E-Tax System",
+    "output": "etrax.mor.gov.et ላይ ለኢ-ትክስ መለያ ይመዝግቡ\nያስፈላጊ ሰነዶችን ያሰኩ: የቢዝነስ ፈቃድ, የትክስ መለያ ቁጥር, የሂኑድ መግለጫዎች\nወደ የኢ-ትክስ ፖርታል ይግቡ\nወደ የቫት መግለጫ ክፍል ይሂዱ\nየሽያጭ እና የግዢ ውሂብ ያስገቡ\nየሚከፈል ቫት ያስሉ\nየቫት መግለጫ ያስገቡ\nበዲጂታል ጣቢያዎች ክፍያ ያድርጉ",
+    "language": "am",
+    "module_id": "tax-vat-filing-1763659718885"
+  },
+  {
+    "instruction": "Summarize the following government service process:",
+    "input": "# Income Tax Filing\n\n## Category: Tax\n## Sector: Manufacturing\n\n## Steps:\n1. Register for e-Tax account\n2. Prepare income and expense documentation\n   (Amharic: የገቢና የወጭ ሰነዶችን ያዘጋጁ)\n3. Login to e-Tax portal\n   (Amharic: ወደ የኢ-ትክስ ፖርታል ይግቡ)\n4. Access income tax filing section\n   (Amharic: ወደ የገቢ ግብ መግለጫ ክፍል ይድረሱ)\n5. Enter business income details\n   (Amharic: የቢዝነስ ገቢ ዝርዝሮችን ያስገቡ)\n6. Report allowable deductions\n   (Amharic: የተፈቀዱ መቅነሻዎችን ያመዝግቡ)\n7. Calculate tax liability\n   (Amharic: የትክስ ኃላፊነት ያስ",
+    "output": "This module explains the E-Tax System process in the Tax category.",
+    "language": "en",
+    "module_id": "tax-income-tax-filing-1763659718885"
+  },
+  {
+    "instruction": "የሚከተለውን የመንግስት አገልግሎት ሂደት ያጠቃልሉ:",
+    "input": "# Income Tax Filing\n\n## Category: Tax\n## Sector: Manufacturing\n\n## Steps:\n1. Register for e-Tax account\n2. Prepare income and expense documentation\n   (Amharic: የገቢና የወጭ ሰነዶችን ያዘጋጁ)\n3. Login to e-Tax portal\n   (Amharic: ወደ የኢ-ትክስ ፖርታል ይግቡ)\n4. Access income tax filing section\n   (Amharic: ወደ የገቢ ግብ መግለጫ ክፍል ይድረሱ)\n5. Enter business income details\n   (Amharic: የቢዝነስ ገቢ ዝርዝሮችን ያስገቡ)\n6. Report allowable deductions\n   (Amharic: የተፈቀዱ መቅነሻዎችን ያመዝግቡ)\n7. Calculate tax liability\n   (Amharic: የትክስ ኃላፊነት ያስ",
+    "output": "ይህ ሞድዩል በTax ምድብ ውስጥ የE-Tax System ሂደትን ይብራራል።",
+    "language": "am",
+    "module_id": "tax-income-tax-filing-1763659718885"
+  },
+  {
+    "instruction": "Provide step-by-step guidance for the following process:",
+    "input": "E-Tax System",
+    "output": "Register for e-Tax account\nPrepare income and expense documentation\nLogin to e-Tax portal\nAccess income tax filing section\nEnter business income details\nReport allowable deductions\nCalculate tax liability\nSubmit return and make payment",
+    "language": "en",
+    "module_id": "tax-income-tax-filing-1763659718885"
+  },
+  {
+    "instruction": "ለሚከተለው ሂደት ደረጃ በደረጃ መመሪያ ያቅርቡ:",
+    "input": "E-Tax System",
+    "output": "Register for e-Tax account\nየገቢና የወጭ ሰነዶችን ያዘጋጁ\nወደ የኢ-ትክስ ፖርታል ይግቡ\nወደ የገቢ ግብ መግለጫ ክፍል ይድረሱ\nየቢዝነስ ገቢ ዝርዝሮችን ያስገቡ\nየተፈቀዱ መቅነሻዎችን ያመዝግቡ\nየትክስ ኃላፊነት ያስሉ\nመግለጫውን ያስገቡ እና ክፍያ ያድርጉ",
+    "language": "am",
+    "module_id": "tax-income-tax-filing-1763659718885"
+  },
+  {
+    "instruction": "Summarize the following government service process:",
+    "input": "# e-Tax Portal Registration\n\n## Category: Tax\n## Sector: Government Services\n\n## Steps:\n1. Visit etax.mor.gov.et\n2. Click on 'New User Registration'\n3. Fill in personal/business details\n4. Verify email and mobile number\n5. Set password and security questions\n6. Complete registration process\n\n## Requirements:\n- Valid identification document\n- Active email address\n- Mobile phone number\n- Business registration certificate (for businesses)\n\n## Validation:\n- Email verification\n- Mobile number verific",
+    "output": "This module explains the Ministry of Revenues process in the Tax category.",
+    "language": "en",
+    "module_id": "tax-e-tax-portal-registration-1763659718886"
+  },
+  {
+    "instruction": "የሚከተለውን የመንግስት አገልግሎት ሂደት ያጠቃልሉ:",
+    "input": "# e-Tax Portal Registration\n\n## Category: Tax\n## Sector: Government Services\n\n## Steps:\n1. Visit etax.mor.gov.et\n2. Click on 'New User Registration'\n3. Fill in personal/business details\n4. Verify email and mobile number\n5. Set password and security questions\n6. Complete registration process\n\n## Requirements:\n- Valid identification document\n- Active email address\n- Mobile phone number\n- Business registration certificate (for businesses)\n\n## Validation:\n- Email verification\n- Mobile number verific",
+    "output": "ይህ ሞድዩል በTax ምድብ ውስጥ የMinistry of Revenues ሂደትን ይብራራል።",
+    "language": "am",
+    "module_id": "tax-e-tax-portal-registration-1763659718886"
+  },
+  {
+    "instruction": "Provide step-by-step guidance for the following process:",
+    "input": "Ministry of Revenues",
+    "output": "Visit etax.mor.gov.et\nClick on 'New User Registration'\nFill in personal/business details\nVerify email and mobile number\nSet password and security questions\nComplete registration process",
+    "language": "en",
+    "module_id": "tax-e-tax-portal-registration-1763659718886"
+  },
+  {
+    "instruction": "ለሚከተለው ሂደት ደረጃ በደረጃ መመሪያ ያቅርቡ:",
+    "input": "Ministry of Revenues",
+    "output": "Visit etax.mor.gov.et\nClick on 'New User Registration'\nFill in personal/business details\nVerify email and mobile number\nSet password and security questions\nComplete registration process",
+    "language": "am",
+    "module_id": "tax-e-tax-portal-registration-1763659718886"
+  },
+  {
+    "instruction": "Summarize the following government service process:",
+    "input": "# General Services\n\n## Category: Government\n## Sector: Public Administration\n\n## Steps:\n1. Visit mor.gov.et\n2. Navigate to the Services section\n3. Select the required service\n4. Follow the application process\n5. Submit required documents\n6. Track application status\n\n## Requirements:\n- Valid identification document\n- Required service-specific documents\n- Application fee (if applicable)\n\n## Validation:\n- Document verification\n- Eligibility check\n- Compliance verification\n",
+    "output": "This module explains the Ministry of Revenues process in the Government category.",
+    "language": "en",
+    "module_id": "government-general-services-1763659718886"
+  },
+  {
+    "instruction": "የሚከተለውን የመንግስት አገልግሎት ሂደት ያጠቃልሉ:",
+    "input": "# General Services\n\n## Category: Government\n## Sector: Public Administration\n\n## Steps:\n1. Visit mor.gov.et\n2. Navigate to the Services section\n3. Select the required service\n4. Follow the application process\n5. Submit required documents\n6. Track application status\n\n## Requirements:\n- Valid identification document\n- Required service-specific documents\n- Application fee (if applicable)\n\n## Validation:\n- Document verification\n- Eligibility check\n- Compliance verification\n",
+    "output": "ይህ ሞድዩል በGovernment ምድብ ውስጥ የMinistry of Revenues ሂደትን ይብራራል።",
+    "language": "am",
+    "module_id": "government-general-services-1763659718886"
+  },
+  {
+    "instruction": "Provide step-by-step guidance for the following process:",
+    "input": "Ministry of Revenues",
+    "output": "Visit mor.gov.et\nNavigate to the Services section\nSelect the required service\nFollow the application process\nSubmit required documents\nTrack application status",
+    "language": "en",
+    "module_id": "government-general-services-1763659718886"
+  },
+  {
+    "instruction": "ለሚከተለው ሂደት ደረጃ በደረጃ መመሪያ ያቅርቡ:",
+    "input": "Ministry of Revenues",
+    "output": "Visit mor.gov.et\nNavigate to the Services section\nSelect the required service\nFollow the application process\nSubmit required documents\nTrack application status",
+    "language": "am",
+    "module_id": "government-general-services-1763659718886"
+  }
+]

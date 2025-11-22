@@ -1,0 +1,800 @@
+[
+  {
+    "question": "What is step 1 in the Ethiopian Customs Commission process?",
+    "answer": "Register on e-SW system at singlewindow.gov.et",
+    "language": "en",
+    "module_id": "customs-e-single-window-system-1763659718857",
+    "category": "Customs"
+  },
+  {
+    "question": "Ethiopian Customs Commission በሂደቱ ውስጥ ደረጃ 1 ምንድን ነው?",
+    "answer": "Register on e-SW system at singlewindow.gov.et",
+    "language": "am",
+    "module_id": "customs-e-single-window-system-1763659718857",
+    "category": "Customs"
+  },
+  {
+    "question": "What is step 2 in the Ethiopian Customs Commission process?",
+    "answer": "Create business profile",
+    "language": "en",
+    "module_id": "customs-e-single-window-system-1763659718857",
+    "category": "Customs"
+  },
+  {
+    "question": "Ethiopian Customs Commission በሂደቱ ውስጥ ደረጃ 2 ምንድን ነው?",
+    "answer": "Create business profile",
+    "language": "am",
+    "module_id": "customs-e-single-window-system-1763659718857",
+    "category": "Customs"
+  },
+  {
+    "question": "What is step 3 in the Ethiopian Customs Commission process?",
+    "answer": "Link with customs account",
+    "language": "en",
+    "module_id": "customs-e-single-window-system-1763659718857",
+    "category": "Customs"
+  },
+  {
+    "question": "Ethiopian Customs Commission በሂደቱ ውስጥ ደረጃ 3 ምንድን ነው?",
+    "answer": "Link with customs account",
+    "language": "am",
+    "module_id": "customs-e-single-window-system-1763659718857",
+    "category": "Customs"
+  },
+  {
+    "question": "What is step 4 in the Ethiopian Customs Commission process?",
+    "answer": "Submit import/export declarations",
+    "language": "en",
+    "module_id": "customs-e-single-window-system-1763659718857",
+    "category": "Customs"
+  },
+  {
+    "question": "Ethiopian Customs Commission በሂደቱ ውስጥ ደረጃ 4 ምንድን ነው?",
+    "answer": "Submit import/export declarations",
+    "language": "am",
+    "module_id": "customs-e-single-window-system-1763659718857",
+    "category": "Customs"
+  },
+  {
+    "question": "What is step 5 in the Ethiopian Customs Commission process?",
+    "answer": "Upload required documents",
+    "language": "en",
+    "module_id": "customs-e-single-window-system-1763659718857",
+    "category": "Customs"
+  },
+  {
+    "question": "Ethiopian Customs Commission በሂደቱ ውስጥ ደረጃ 5 ምንድን ነው?",
+    "answer": "ያስፈላጊ ሰነዶችን ይስቀሉ",
+    "language": "am",
+    "module_id": "customs-e-single-window-system-1763659718857",
+    "category": "Customs"
+  },
+  {
+    "question": "What is step 6 in the Ethiopian Customs Commission process?",
+    "answer": "Track declaration status",
+    "language": "en",
+    "module_id": "customs-e-single-window-system-1763659718857",
+    "category": "Customs"
+  },
+  {
+    "question": "Ethiopian Customs Commission በሂደቱ ውስጥ ደረጃ 6 ምንድን ነው?",
+    "answer": "Track declaration status",
+    "language": "am",
+    "module_id": "customs-e-single-window-system-1763659718857",
+    "category": "Customs"
+  },
+  {
+    "question": "What is step 1 in the Ethiopian Customs Commission process?",
+    "answer": "Visit ectradeportal.customs.gov.et",
+    "language": "en",
+    "module_id": "trade-etrade-portal-1763659718858",
+    "category": "Trade"
+  },
+  {
+    "question": "Ethiopian Customs Commission በሂደቱ ውስጥ ደረጃ 1 ምንድን ነው?",
+    "answer": "Visit ectradeportal.customs.gov.et",
+    "language": "am",
+    "module_id": "trade-etrade-portal-1763659718858",
+    "category": "Trade"
+  },
+  {
+    "question": "What is step 2 in the Ethiopian Customs Commission process?",
+    "answer": "Register for an account",
+    "language": "en",
+    "module_id": "trade-etrade-portal-1763659718858",
+    "category": "Trade"
+  },
+  {
+    "question": "Ethiopian Customs Commission በሂደቱ ውስጥ ደረጃ 2 ምንድን ነው?",
+    "answer": "Register for an account",
+    "language": "am",
+    "module_id": "trade-etrade-portal-1763659718858",
+    "category": "Trade"
+  },
+  {
+    "question": "What is step 3 in the Ethiopian Customs Commission process?",
+    "answer": "Complete business verification",
+    "language": "en",
+    "module_id": "trade-etrade-portal-1763659718858",
+    "category": "Trade"
+  },
+  {
+    "question": "Ethiopian Customs Commission በሂደቱ ውስጥ ደረጃ 3 ምንድን ነው?",
+    "answer": "Complete business verification",
+    "language": "am",
+    "module_id": "trade-etrade-portal-1763659718858",
+    "category": "Trade"
+  },
+  {
+    "question": "What is step 4 in the Ethiopian Customs Commission process?",
+    "answer": "Access trade statistics",
+    "language": "en",
+    "module_id": "trade-etrade-portal-1763659718858",
+    "category": "Trade"
+  },
+  {
+    "question": "Ethiopian Customs Commission በሂደቱ ውስጥ ደረጃ 4 ምንድን ነው?",
+    "answer": "Access trade statistics",
+    "language": "am",
+    "module_id": "trade-etrade-portal-1763659718858",
+    "category": "Trade"
+  },
+  {
+    "question": "What is step 5 in the Ethiopian Customs Commission process?",
+    "answer": "Generate trade reports",
+    "language": "en",
+    "module_id": "trade-etrade-portal-1763659718858",
+    "category": "Trade"
+  },
+  {
+    "question": "Ethiopian Customs Commission በሂደቱ ውስጥ ደረጃ 5 ምንድን ነው?",
+    "answer": "Generate trade reports",
+    "language": "am",
+    "module_id": "trade-etrade-portal-1763659718858",
+    "category": "Trade"
+  },
+  {
+    "question": "What is step 6 in the Ethiopian Customs Commission process?",
+    "answer": "Monitor trade activities",
+    "language": "en",
+    "module_id": "trade-etrade-portal-1763659718858",
+    "category": "Trade"
+  },
+  {
+    "question": "Ethiopian Customs Commission በሂደቱ ውስጥ ደረጃ 6 ምንድን ነው?",
+    "answer": "Monitor trade activities",
+    "language": "am",
+    "module_id": "trade-etrade-portal-1763659718858",
+    "category": "Trade"
+  },
+  {
+    "question": "What is step 1 in the Customs & e-SW process?",
+    "answer": "Obtain import license/permit",
+    "language": "en",
+    "module_id": "customs-import-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "Customs & e-SW በሂደቱ ውስጥ ደረጃ 1 ምንድን ነው?",
+    "answer": "የማስመጣች ፈቃድ/ፍቃድ ያግኙ",
+    "language": "am",
+    "module_id": "customs-import-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "What is step 2 in the Customs & e-SW process?",
+    "answer": "Register on e-SW system",
+    "language": "en",
+    "module_id": "customs-import-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "Customs & e-SW በሂደቱ ውስጥ ደረጃ 2 ምንድን ነው?",
+    "answer": "በኢ-ኤስዬ ስርዓት ላይ ይመዝግቡ",
+    "language": "am",
+    "module_id": "customs-import-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "What is step 3 in the Customs & e-SW process?",
+    "answer": "Prepare commercial invoice",
+    "language": "en",
+    "module_id": "customs-import-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "Customs & e-SW በሂደቱ ውስጥ ደረጃ 3 ምንድን ነው?",
+    "answer": "የንግድ ኢንቮይስ ያዘጋጁ",
+    "language": "am",
+    "module_id": "customs-import-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "What is step 4 in the Customs & e-SW process?",
+    "answer": "Classify goods using HS codes",
+    "language": "en",
+    "module_id": "customs-import-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "Customs & e-SW በሂደቱ ውስጥ ደረጃ 4 ምንድን ነው?",
+    "answer": "የኤችኤስ ኮዶችን በመጠቀም ምርቶችን ይመደቡ",
+    "language": "am",
+    "module_id": "customs-import-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "What is step 5 in the Customs & e-SW process?",
+    "answer": "Calculate applicable duties and taxes",
+    "language": "en",
+    "module_id": "customs-import-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "Customs & e-SW በሂደቱ ውስጥ ደረጃ 5 ምንድን ነው?",
+    "answer": "የሚተገበሩ ጉምራሾች እና ታክሶችን ያስሉ",
+    "language": "am",
+    "module_id": "customs-import-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "What is step 6 in the Customs & e-SW process?",
+    "answer": "Submit import declaration",
+    "language": "en",
+    "module_id": "customs-import-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "Customs & e-SW በሂደቱ ውስጥ ደረጃ 6 ምንድን ነው?",
+    "answer": "የማስመጣች መግለጫ ያስገቡ",
+    "language": "am",
+    "module_id": "customs-import-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "What is step 7 in the Customs & e-SW process?",
+    "answer": "Upload required documents",
+    "language": "en",
+    "module_id": "customs-import-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "Customs & e-SW በሂደቱ ውስጥ ደረጃ 7 ምንድን ነው?",
+    "answer": "ያስፈላጊ ሰነዶችን ይስቀሉ",
+    "language": "am",
+    "module_id": "customs-import-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "What is step 8 in the Customs & e-SW process?",
+    "answer": "Pay duties and taxes",
+    "language": "en",
+    "module_id": "customs-import-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "Customs & e-SW በሂደቱ ውስጥ ደረጃ 8 ምንድን ነው?",
+    "answer": "ጉምራሾች እና ታክሶች ይክፈሉ",
+    "language": "am",
+    "module_id": "customs-import-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "What is step 9 in the Customs & e-SW process?",
+    "answer": "Clear goods through customs",
+    "language": "en",
+    "module_id": "customs-import-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "Customs & e-SW በሂደቱ ውስጥ ደረጃ 9 ምንድን ነው?",
+    "answer": "ምርቶችን በየክስተቱ ያጽዱ",
+    "language": "am",
+    "module_id": "customs-import-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "What is step 1 in the Customs & e-SW process?",
+    "answer": "Obtain export license/permit",
+    "language": "en",
+    "module_id": "customs-export-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "Customs & e-SW በሂደቱ ውስጥ ደረጃ 1 ምንድን ነው?",
+    "answer": "የመላኪያ ፈቃድ/ፍቃድ ያግኙ",
+    "language": "am",
+    "module_id": "customs-export-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "What is step 2 in the Customs & e-SW process?",
+    "answer": "Register on e-SW system",
+    "language": "en",
+    "module_id": "customs-export-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "Customs & e-SW በሂደቱ ውስጥ ደረጃ 2 ምንድን ነው?",
+    "answer": "በኢ-ኤስዬ ስርዓት ላይ ይመዝግቡ",
+    "language": "am",
+    "module_id": "customs-export-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "What is step 3 in the Customs & e-SW process?",
+    "answer": "Prepare commercial invoice",
+    "language": "en",
+    "module_id": "customs-export-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "Customs & e-SW በሂደቱ ውስጥ ደረጃ 3 ምንድን ነው?",
+    "answer": "የንግድ ኢንቮይስ ያዘጋጁ",
+    "language": "am",
+    "module_id": "customs-export-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "What is step 4 in the Customs & e-SW process?",
+    "answer": "Classify goods using HS codes",
+    "language": "en",
+    "module_id": "customs-export-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "Customs & e-SW በሂደቱ ውስጥ ደረጃ 4 ምንድን ነው?",
+    "answer": "የኤችኤስ ኮዶችን በመጠቀም ምርቶችን ይመደቡ",
+    "language": "am",
+    "module_id": "customs-export-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "What is step 5 in the Customs & e-SW process?",
+    "answer": "Submit export declaration",
+    "language": "en",
+    "module_id": "customs-export-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "Customs & e-SW በሂደቱ ውስጥ ደረጃ 5 ምንድን ነው?",
+    "answer": "የመላኪያ መግለጫ ያስገቡ",
+    "language": "am",
+    "module_id": "customs-export-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "What is step 6 in the Customs & e-SW process?",
+    "answer": "Upload required documents",
+    "language": "en",
+    "module_id": "customs-export-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "Customs & e-SW በሂደቱ ውስጥ ደረጃ 6 ምንድን ነው?",
+    "answer": "ያስፈላጊ ሰነዶችን ይስቀሉ",
+    "language": "am",
+    "module_id": "customs-export-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "What is step 7 in the Customs & e-SW process?",
+    "answer": "Obtain shipping instructions",
+    "language": "en",
+    "module_id": "customs-export-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "Customs & e-SW በሂደቱ ውስጥ ደረጃ 7 ምንድን ነው?",
+    "answer": "የመላኪያ መመሪያዎችን ያግኙ",
+    "language": "am",
+    "module_id": "customs-export-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "What is step 8 in the Customs & e-SW process?",
+    "answer": "Clear goods through customs",
+    "language": "en",
+    "module_id": "customs-export-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "Customs & e-SW በሂደቱ ውስጥ ደረጃ 8 ምንድን ነው?",
+    "answer": "ምርቶችን በየክስተቱ ያጽዱ",
+    "language": "am",
+    "module_id": "customs-export-declaration-workflow-1763659718882",
+    "category": "Customs"
+  },
+  {
+    "question": "What is step 1 in the E-Tax System process?",
+    "answer": "Register for e-Tax account at etrax.mor.gov.et",
+    "language": "en",
+    "module_id": "tax-vat-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "E-Tax System በሂደቱ ውስጥ ደረጃ 1 ምንድን ነው?",
+    "answer": "etrax.mor.gov.et ላይ ለኢ-ትክስ መለያ ይመዝግቡ",
+    "language": "am",
+    "module_id": "tax-vat-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "What is step 2 in the E-Tax System process?",
+    "answer": "Gather required documents: Business license, TIN, financial statements",
+    "language": "en",
+    "module_id": "tax-vat-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "E-Tax System በሂደቱ ውስጥ ደረጃ 2 ምንድን ነው?",
+    "answer": "ያስፈላጊ ሰነዶችን ያሰኩ: የቢዝነስ ፈቃድ, የትክስ መለያ ቁጥር, የሂኑድ መግለጫዎች",
+    "language": "am",
+    "module_id": "tax-vat-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "What is step 3 in the E-Tax System process?",
+    "answer": "Login to e-Tax portal",
+    "language": "en",
+    "module_id": "tax-vat-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "E-Tax System በሂደቱ ውስጥ ደረጃ 3 ምንድን ነው?",
+    "answer": "ወደ የኢ-ትክስ ፖርታል ይግቡ",
+    "language": "am",
+    "module_id": "tax-vat-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "What is step 4 in the E-Tax System process?",
+    "answer": "Navigate to VAT filing section",
+    "language": "en",
+    "module_id": "tax-vat-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "E-Tax System በሂደቱ ውስጥ ደረጃ 4 ምንድን ነው?",
+    "answer": "ወደ የቫት መግለጫ ክፍል ይሂዱ",
+    "language": "am",
+    "module_id": "tax-vat-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "What is step 5 in the E-Tax System process?",
+    "answer": "Enter sales and purchase data",
+    "language": "en",
+    "module_id": "tax-vat-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "E-Tax System በሂደቱ ውስጥ ደረጃ 5 ምንድን ነው?",
+    "answer": "የሽያጭ እና የግዢ ውሂብ ያስገቡ",
+    "language": "am",
+    "module_id": "tax-vat-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "What is step 6 in the E-Tax System process?",
+    "answer": "Calculate VAT payable",
+    "language": "en",
+    "module_id": "tax-vat-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "E-Tax System በሂደቱ ውስጥ ደረጃ 6 ምንድን ነው?",
+    "answer": "የሚከፈል ቫት ያስሉ",
+    "language": "am",
+    "module_id": "tax-vat-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "What is step 7 in the E-Tax System process?",
+    "answer": "Submit VAT return",
+    "language": "en",
+    "module_id": "tax-vat-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "E-Tax System በሂደቱ ውስጥ ደረጃ 7 ምንድን ነው?",
+    "answer": "የቫት መግለጫ ያስገቡ",
+    "language": "am",
+    "module_id": "tax-vat-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "What is step 8 in the E-Tax System process?",
+    "answer": "Make payment through digital channels",
+    "language": "en",
+    "module_id": "tax-vat-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "E-Tax System በሂደቱ ውስጥ ደረጃ 8 ምንድን ነው?",
+    "answer": "በዲጂታል ጣቢያዎች ክፍያ ያድርጉ",
+    "language": "am",
+    "module_id": "tax-vat-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "What is step 1 in the E-Tax System process?",
+    "answer": "Register for e-Tax account",
+    "language": "en",
+    "module_id": "tax-income-tax-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "E-Tax System በሂደቱ ውስጥ ደረጃ 1 ምንድን ነው?",
+    "answer": "Register for e-Tax account",
+    "language": "am",
+    "module_id": "tax-income-tax-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "What is step 2 in the E-Tax System process?",
+    "answer": "Prepare income and expense documentation",
+    "language": "en",
+    "module_id": "tax-income-tax-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "E-Tax System በሂደቱ ውስጥ ደረጃ 2 ምንድን ነው?",
+    "answer": "የገቢና የወጭ ሰነዶችን ያዘጋጁ",
+    "language": "am",
+    "module_id": "tax-income-tax-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "What is step 3 in the E-Tax System process?",
+    "answer": "Login to e-Tax portal",
+    "language": "en",
+    "module_id": "tax-income-tax-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "E-Tax System በሂደቱ ውስጥ ደረጃ 3 ምንድን ነው?",
+    "answer": "ወደ የኢ-ትክስ ፖርታል ይግቡ",
+    "language": "am",
+    "module_id": "tax-income-tax-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "What is step 4 in the E-Tax System process?",
+    "answer": "Access income tax filing section",
+    "language": "en",
+    "module_id": "tax-income-tax-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "E-Tax System በሂደቱ ውስጥ ደረጃ 4 ምንድን ነው?",
+    "answer": "ወደ የገቢ ግብ መግለጫ ክፍል ይድረሱ",
+    "language": "am",
+    "module_id": "tax-income-tax-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "What is step 5 in the E-Tax System process?",
+    "answer": "Enter business income details",
+    "language": "en",
+    "module_id": "tax-income-tax-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "E-Tax System በሂደቱ ውስጥ ደረጃ 5 ምንድን ነው?",
+    "answer": "የቢዝነስ ገቢ ዝርዝሮችን ያስገቡ",
+    "language": "am",
+    "module_id": "tax-income-tax-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "What is step 6 in the E-Tax System process?",
+    "answer": "Report allowable deductions",
+    "language": "en",
+    "module_id": "tax-income-tax-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "E-Tax System በሂደቱ ውስጥ ደረጃ 6 ምንድን ነው?",
+    "answer": "የተፈቀዱ መቅነሻዎችን ያመዝግቡ",
+    "language": "am",
+    "module_id": "tax-income-tax-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "What is step 7 in the E-Tax System process?",
+    "answer": "Calculate tax liability",
+    "language": "en",
+    "module_id": "tax-income-tax-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "E-Tax System በሂደቱ ውስጥ ደረጃ 7 ምንድን ነው?",
+    "answer": "የትክስ ኃላፊነት ያስሉ",
+    "language": "am",
+    "module_id": "tax-income-tax-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "What is step 8 in the E-Tax System process?",
+    "answer": "Submit return and make payment",
+    "language": "en",
+    "module_id": "tax-income-tax-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "E-Tax System በሂደቱ ውስጥ ደረጃ 8 ምንድን ነው?",
+    "answer": "መግለጫውን ያስገቡ እና ክፍያ ያድርጉ",
+    "language": "am",
+    "module_id": "tax-income-tax-filing-1763659718885",
+    "category": "Tax"
+  },
+  {
+    "question": "What is step 1 in the Ministry of Revenues process?",
+    "answer": "Visit etax.mor.gov.et",
+    "language": "en",
+    "module_id": "tax-e-tax-portal-registration-1763659718886",
+    "category": "Tax"
+  },
+  {
+    "question": "Ministry of Revenues በሂደቱ ውስጥ ደረጃ 1 ምንድን ነው?",
+    "answer": "Visit etax.mor.gov.et",
+    "language": "am",
+    "module_id": "tax-e-tax-portal-registration-1763659718886",
+    "category": "Tax"
+  },
+  {
+    "question": "What is step 2 in the Ministry of Revenues process?",
+    "answer": "Click on 'New User Registration'",
+    "language": "en",
+    "module_id": "tax-e-tax-portal-registration-1763659718886",
+    "category": "Tax"
+  },
+  {
+    "question": "Ministry of Revenues በሂደቱ ውስጥ ደረጃ 2 ምንድን ነው?",
+    "answer": "Click on 'New User Registration'",
+    "language": "am",
+    "module_id": "tax-e-tax-portal-registration-1763659718886",
+    "category": "Tax"
+  },
+  {
+    "question": "What is step 3 in the Ministry of Revenues process?",
+    "answer": "Fill in personal/business details",
+    "language": "en",
+    "module_id": "tax-e-tax-portal-registration-1763659718886",
+    "category": "Tax"
+  },
+  {
+    "question": "Ministry of Revenues በሂደቱ ውስጥ ደረጃ 3 ምንድን ነው?",
+    "answer": "Fill in personal/business details",
+    "language": "am",
+    "module_id": "tax-e-tax-portal-registration-1763659718886",
+    "category": "Tax"
+  },
+  {
+    "question": "What is step 4 in the Ministry of Revenues process?",
+    "answer": "Verify email and mobile number",
+    "language": "en",
+    "module_id": "tax-e-tax-portal-registration-1763659718886",
+    "category": "Tax"
+  },
+  {
+    "question": "Ministry of Revenues በሂደቱ ውስጥ ደረጃ 4 ምንድን ነው?",
+    "answer": "Verify email and mobile number",
+    "language": "am",
+    "module_id": "tax-e-tax-portal-registration-1763659718886",
+    "category": "Tax"
+  },
+  {
+    "question": "What is step 5 in the Ministry of Revenues process?",
+    "answer": "Set password and security questions",
+    "language": "en",
+    "module_id": "tax-e-tax-portal-registration-1763659718886",
+    "category": "Tax"
+  },
+  {
+    "question": "Ministry of Revenues በሂደቱ ውስጥ ደረጃ 5 ምንድን ነው?",
+    "answer": "Set password and security questions",
+    "language": "am",
+    "module_id": "tax-e-tax-portal-registration-1763659718886",
+    "category": "Tax"
+  },
+  {
+    "question": "What is step 6 in the Ministry of Revenues process?",
+    "answer": "Complete registration process",
+    "language": "en",
+    "module_id": "tax-e-tax-portal-registration-1763659718886",
+    "category": "Tax"
+  },
+  {
+    "question": "Ministry of Revenues በሂደቱ ውስጥ ደረጃ 6 ምንድን ነው?",
+    "answer": "Complete registration process",
+    "language": "am",
+    "module_id": "tax-e-tax-portal-registration-1763659718886",
+    "category": "Tax"
+  },
+  {
+    "question": "What is step 1 in the Ministry of Revenues process?",
+    "answer": "Visit mor.gov.et",
+    "language": "en",
+    "module_id": "government-general-services-1763659718886",
+    "category": "Government"
+  },
+  {
+    "question": "Ministry of Revenues በሂደቱ ውስጥ ደረጃ 1 ምንድን ነው?",
+    "answer": "Visit mor.gov.et",
+    "language": "am",
+    "module_id": "government-general-services-1763659718886",
+    "category": "Government"
+  },
+  {
+    "question": "What is step 2 in the Ministry of Revenues process?",
+    "answer": "Navigate to the Services section",
+    "language": "en",
+    "module_id": "government-general-services-1763659718886",
+    "category": "Government"
+  },
+  {
+    "question": "Ministry of Revenues በሂደቱ ውስጥ ደረጃ 2 ምንድን ነው?",
+    "answer": "Navigate to the Services section",
+    "language": "am",
+    "module_id": "government-general-services-1763659718886",
+    "category": "Government"
+  },
+  {
+    "question": "What is step 3 in the Ministry of Revenues process?",
+    "answer": "Select the required service",
+    "language": "en",
+    "module_id": "government-general-services-1763659718886",
+    "category": "Government"
+  },
+  {
+    "question": "Ministry of Revenues በሂደቱ ውስጥ ደረጃ 3 ምንድን ነው?",
+    "answer": "Select the required service",
+    "language": "am",
+    "module_id": "government-general-services-1763659718886",
+    "category": "Government"
+  },
+  {
+    "question": "What is step 4 in the Ministry of Revenues process?",
+    "answer": "Follow the application process",
+    "language": "en",
+    "module_id": "government-general-services-1763659718886",
+    "category": "Government"
+  },
+  {
+    "question": "Ministry of Revenues በሂደቱ ውስጥ ደረጃ 4 ምንድን ነው?",
+    "answer": "Follow the application process",
+    "language": "am",
+    "module_id": "government-general-services-1763659718886",
+    "category": "Government"
+  },
+  {
+    "question": "What is step 5 in the Ministry of Revenues process?",
+    "answer": "Submit required documents",
+    "language": "en",
+    "module_id": "government-general-services-1763659718886",
+    "category": "Government"
+  },
+  {
+    "question": "Ministry of Revenues በሂደቱ ውስጥ ደረጃ 5 ምንድን ነው?",
+    "answer": "Submit required documents",
+    "language": "am",
+    "module_id": "government-general-services-1763659718886",
+    "category": "Government"
+  },
+  {
+    "question": "What is step 6 in the Ministry of Revenues process?",
+    "answer": "Track application status",
+    "language": "en",
+    "module_id": "government-general-services-1763659718886",
+    "category": "Government"
+  },
+  {
+    "question": "Ministry of Revenues በሂደቱ ውስጥ ደረጃ 6 ምንድን ነው?",
+    "answer": "Track application status",
+    "language": "am",
+    "module_id": "government-general-services-1763659718886",
+    "category": "Government"
+  }
+]

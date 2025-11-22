@@ -1,0 +1,46 @@
+{
+  "id": "customs-import-declaration-12346",
+  "slug": "customs-import-declaration",
+  "title": "Customs Import Declaration",
+  "source_url": "https://ecc.gov.et/import-declaration",
+  "language": "en",
+  "original_text": "Obtain import license/permit. Register on e-SW system.",
+  "translated_text": "የማስመጣች ፈቃድ/ፍቃድ ያግኙ. በኢ-ኤስዬ ስርዓት ላይ ይመዝግቡ.",
+  "category": "Customs",
+  "tags": [
+    "import",
+    "declaration",
+    "customs"
+  ],
+  "sector_tags": [
+    "import-export"
+  ],
+  "workflows": [
+    {
+      "step": 1,
+      "description": {
+        "en": "Obtain import license/permit",
+        "am": "የማስመጣች ፈቃድ/ፍቃድ ያግኙ"
+      }
+    },
+    {
+      "step": 2,
+      "description": {
+        "en": "Register on e-SW system",
+        "am": "በኢ-ኤስዬ ስርዓት ላይ ይመዝግቡ"
+      }
+    }
+  ],
+  "required_documents": [
+    "Commercial invoice",
+    "Packing list",
+    "Bill of lading"
+  ],
+  "common_errors": [
+    "Incomplete documentation",
+    "Incorrect HS code classification"
+  ],
+  "updated_at": "2025-11-18T16:31:19.545Z",
+  "version": "1.0",
+  "legal_source": true
+}

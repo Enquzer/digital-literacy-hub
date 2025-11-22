@@ -1,0 +1,109 @@
+{
+  "id": "customs-e-single-window-1",
+  "slug": "e-single-window",
+  "title": "E-Single Window System for Importers",
+  "source_url": "https://customs.gov.et/e-single-window",
+  "language": "en",
+  "version": "1.0",
+  "source_body": "This module explains the E-Single Window system for importers in Ethiopia.",
+  "original_text": "This module explains the E-Single Window system for importers in Ethiopia.",
+  "translated_text": "ይህ ሞድዩል ለኢትዮጵያ ማስመጣቾች የኢ-ሲንግል ዊንዶ ስርዓትን ይብራራል።",
+  "category": "Customs",
+  "workflows": [
+    {
+      "step": 1,
+      "description": {
+        "en": "Obtain import license/permit",
+        "am": "የማስመጣች ፈቃድ/ፍቃድ ያግኙ"
+      }
+    },
+    {
+      "step": 2,
+      "description": {
+        "en": "Register on e-SW system",
+        "am": "በኢ-ኤስዬ ስርዓት ላይ ይመዝግቡ"
+      }
+    },
+    {
+      "step": 3,
+      "description": {
+        "en": "Prepare commercial invoice",
+        "am": "የንግድ ኢንቮይስ ያዘጋጁ"
+      }
+    },
+    {
+      "step": 4,
+      "description": {
+        "en": "Classify goods using HS codes",
+        "am": "የኤችኤስ ኮዶችን በመጠቀም ምርቶችን ይመደቡ"
+      }
+    },
+    {
+      "step": 5,
+      "description": {
+        "en": "Calculate applicable duties and taxes",
+        "am": "የሚተገበሩ ጉምራሾች እና ታክሶችን ያስሉ"
+      }
+    },
+    {
+      "step": 6,
+      "description": {
+        "en": "Submit import declaration",
+        "am": "የማስመጣች መግለጫ ያስገቡ"
+      }
+    },
+    {
+      "step": 7,
+      "description": {
+        "en": "Upload required documents",
+        "am": "ያስፈላጊ ሰነዶችን ይስቀሉ"
+      }
+    },
+    {
+      "step": 8,
+      "description": {
+        "en": "Pay duties and taxes",
+        "am": "ጉምራሾች እና ታክሶች ይክፈሉ"
+      }
+    },
+    {
+      "step": 9,
+      "description": {
+        "en": "Clear goods through customs",
+        "am": "ምርቶችን በየክስተቱ ያጽዱ"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "What documents are required for import clearance?",
+        "am": "ለማስመጣች ማጽጃ ምን ሰነዶች ያስፈላጊ ናቸው?"
+      },
+      "answer": {
+        "en": "Required documents include commercial invoice, packing list, bill of lading, import permit, and certificate of origin.",
+        "am": "የሚያስፈልጉ ሰነዶች የንግድ ኢንቮይስ, የመጠን ዝርዝር, የመጋቢያ ማስታወሻ, የማስመጣች ፈቃድ እና የመነሻ ማረጋገጫ ናቸው።"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "title": {
+        "en": "Sample Import Process",
+        "am": "የማስመጣች ምሳሌ ሂደት"
+      },
+      "description": {
+        "en": "For importing electronics, ensure compliance with Ethiopian standards and obtain necessary permits before shipment.",
+        "am": "ለኤሌክትሮኒክስ ማስመጣች, ከመላኪያ በፊት ከኢትዮጵያ መስፈርቶች ጋር መስማማት እና የሚያስፈልጉ ፈቃዶችን ያግኙ።"
+      }
+    }
+  ],
+  "required_documents": [
+    "Commercial invoice",
+    "Packing list",
+    "Bill of lading",
+    "Import permit",
+    "Certificate of origin"
+  ],
+  "updated_at": "2025-11-20T18:51:13.921Z"
+}

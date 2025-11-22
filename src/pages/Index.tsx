@@ -10,7 +10,8 @@ import {
   FileText,
   Truck,
   ArrowRight,
-  CheckCircle
+  CheckCircle,
+  LogIn
 } from "lucide-react";
 
 const Index = () => {
@@ -62,6 +63,28 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      {/* Header with Login Button */}
+      <header className="border-b bg-card">
+        <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+          <div className="flex items-center gap-3">
+            <div className="h-10 w-10 rounded-full bg-primary flex items-center justify-center">
+              <GraduationCap className="h-6 w-6 text-primary-foreground" />
+            </div>
+            <div>
+              <h1 className="text-xl font-bold">Ethiopian SME LMS</h1>
+            </div>
+          </div>
+          <Button 
+            variant="ghost" 
+            onClick={() => navigate("/auth")}
+            className="flex items-center gap-2"
+          >
+            <LogIn className="h-4 w-4" />
+            Login
+          </Button>
+        </div>
+      </header>
+
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-primary via-primary-glow to-achievement">
         <div className="absolute inset-0 bg-grid-white/10"></div>
@@ -214,7 +237,6 @@ const Index = () => {
       <footer className="border-t py-8 bg-card">
         <div className="container mx-auto px-4 text-center text-muted-foreground">
           <p>&copy; 2024 Ethiopian SME Digital Literacy Program. All rights reserved.</p>
-          <p className="mt-2 text-sm">Powered by Lovable Cloud</p>
         </div>
       </footer>
     </div>
